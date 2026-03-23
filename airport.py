@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 class Airport:
     def __init__(self, icao, lat, lon):
-        self.icao = icao          # Guardamos el valor que entra
+        self.icao = icao
         self.latitude = lat
         self.longitude = lon
         self.schengen = False
@@ -29,7 +29,7 @@ def AddAirport():
         opcion = input(f"El aeropuerto {icao} ya existe. ¿Sobreescribir? (Y/N): ").upper()
         if opcion != "Y":
             print("Operación cancelada.")
-            return  # Salimos sin hacer nada
+            return
 
     lat = float(input("Latitude: "))
     lon = float(input("Longitude: "))
@@ -67,7 +67,7 @@ def RemoveAirports():
         if lista_original[i].icao.upper() != icao_a_borrar.upper():
             nueva_lista.append(lista_original[i])
         else:
-            encontrado = True  # Lo hemos saltado, por lo tanto, "borrado"
+            encontrado = True
         i += 1
 
     if encontrado:
@@ -77,7 +77,6 @@ def RemoveAirports():
         j = 0
         while j < len(nueva_lista):
             a = nueva_lista[j]
-            # Escribimos cada objeto de la nueva lista
             F.write(f"{a.icao} {a.latitude} {a.longitude}\n")
             j += 1
 
@@ -88,13 +87,7 @@ def RemoveAirports():
     else:
         print("No se encontró el aeropuerto para eliminar.")
 
-
-
-
-
-    return nueva_lista  # Devolvemos la lista limpia
-
-
+    return nueva_lista
 
 ###### BUSCAR SCHENGEN #######
 def IsSchengen(airport):
@@ -104,7 +97,7 @@ def IsSchengen(airport):
     linea = F.readline()
     while linea != "":
         if pais_icao == linea.strip().upper():
-            F.close()  # Importante cerrar antes de salir
+            F.close()
             return True
         linea = F.readline()
 
@@ -192,7 +185,7 @@ def LoadAirports(origen):
         f.close()
 
     except FileNotFoundError:
-        return []  # Si no existe, lista vacía como pide la consigna
+        return []
 
     return lista_aeropuertos
 
@@ -240,7 +233,9 @@ def PlotAirports(airports):
     print(f"Mostrando gráfico: {is_schengen} Schengen, {no_schengen} No Schengen")
     plt.show()
 
-
+######### ERRORES DETECTADOS ############
+# 1. Se edita el fichero Airports.txt con las lat y lon en decimal si se usa la funcion LoadAirports
+# 2. No existe pintar los aeropuertos en google earth.
 
 
 
