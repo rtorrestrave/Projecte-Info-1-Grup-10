@@ -1,3 +1,7 @@
+########################################################################################################################
+#####################################       DEFINICION CLASE Y LIBRERÍAS         #######################################
+########################################################################################################################
+
 import matplotlib.pyplot as plt
 
 class Airport:
@@ -7,16 +11,14 @@ class Airport:
         self.longitude = lon
         self.schengen = False
 
-###### INTRODUIR AEROPORT A LA LLISTA ######
+########################################################################################################################
+################################ INTRODUCIR UN AEROPUERTO EN LISTA  ####################################################
+########################################################################################################################
 
-
-
-def AddAirport():
-    lista = LoadAirports("airports.txt")
-
-    print("--- Introduce los datos del nuevo aeropuerto ---")
-    icao = input("Código ICAO: ").upper()
-
+def AddAirport(lista, nuevoaeropuerto):
+    icao = nuevoaeropuerto.icao
+    #latitud = nuevoaeropuerto.latitude
+    #longitud = nuevoaeropuerto.longitude
 
     indice_existente = -1
     i = 0
@@ -31,72 +33,96 @@ def AddAirport():
             print("Operación cancelada.")
             return
 
-    lat = float(input("Latitude: "))
-    lon = float(input("Longitude: "))
-
-    nuevo = Airport(icao, lat, lon)
-    nuevo.schengen = IsSchengen(nuevo)
-
     if indice_existente != -1:
-        lista[indice_existente] = nuevo
+        lista[indice_existente] = nuevoaeropuerto
+        print("Aeropuerto Sobreescrito.")
     else:
-        lista.append(nuevo)
+        lista.append(nuevoaeropuerto)
+        print("Nuevo Aeropuerto Añadido")
 
-    F = open("ResultsSchengen.txt", "w")
-    F.write("CODE LAT LON SCHENGEN\n")
-    i = 0
-    while i < len(lista):
-        a = lista[i]
-        F.write(f"{a.icao} {a.latitude} {a.longitude} {a.schengen}\n")
-        i += 1
-    F.close()
-    print("Aeropuerto guardado correctamente.")
+    return lista
 
+########################################################################################################################
+#################################### QUITAR UN AEROPUERTO EN LISTA  ####################################################
+########################################################################################################################
 
-##################################### REMOVE AIRPORT ########################33
-
-def RemoveAirports():
+def RemoveAirports(airports, icao_a_borrar):
     nueva_lista = []
-    lista_original = LoadAirports("airports.txt")
-    icao_a_borrar = input("Introduce el ICAO a borrar: ")
+
     i = 0
     encontrado = False
 
-    while i < len(lista_original) and not encontrado:
+    while i < len(airports) and not encontrado:         # primer bucle para QUITAR el aeropuerto deseado
 
-        if lista_original[i].icao.upper() != icao_a_borrar.upper():
-            nueva_lista.append(lista_original[i])
+        if airports[i].icao.upper() != icao_a_borrar.upper():
+            nueva_lista.append(airports[i])
+            print("Buscando...")
         else:
             encontrado = True
+            print(f"Aeropuerto {icao_a_borrar} eliminado de la lista.")
         i += 1
 
-    if encontrado:
-        F = open("Airports.txt", "w")
-        F.write("CODE LAT LON\n")
+    while i < len(airports) and encontrado:              # segundo bucle para continuar con los demas
 
-        j = 0
-        while j < len(nueva_lista):
-            a = nueva_lista[j]
-            F.write(f"{a.icao} {a.latitude} {a.longitude}\n")
-            j += 1
+        nueva_lista.append(airports[i])
+        i += 1
 
-        F.close()
-
-        print(f"Aeropuerto {icao_a_borrar} eliminado de la lista.")
-
-    else:
+    if not encontrado:
         print("No se encontró el aeropuerto para eliminar.")
 
     return nueva_lista
 
-###### BUSCAR SCHENGEN #######
-def IsSchengen(airport):
-    F = open("SchengenList.txt", "r")
-    pais_icao = airport.icao[:2].upper()
+########################################################################################################################
+################################  GUARDAR LA LISTA EN FICHERO TXT   ####################################################
+########################################################################################################################
 
+def SaveAirportList(airports, filename):
+    F = open(filename, "w")
+    F.write("CODE LAT LON\n")
+
+    i = 0
+    while i < len(airports):
+
+        lat = airports[i].latitude      #conversor latitudes a formato
+        if lat >= 0:
+            lat_dir = "N"
+        else:
+            lat_dir = "S"
+            lat = -lat
+
+        lat_grados = int(lat)
+        lat_minutos = int((lat - lat_grados) * 60)
+        lat_segundos = int((((lat - lat_grados) * 60) - lat_minutos) * 60)
+
+        lat_str = lat_dir + f"{lat_grados:02d}{lat_minutos:02d}{lat_segundos:02d}"
+
+        lon = airports[i].longitude    #conversor longitudes a formato
+        if lon >= 0:
+            lon_dir = "E"
+        else:
+            lon_dir = "W"
+            lon = -lon
+
+        lon_grados = int(lon)
+        lon_minutos = int((lon - lon_grados) * 60)
+        lon_segundos = int((((lon - lon_grados) * 60) - lon_minutos) * 60)
+
+        lon_str = lon_dir + f"{lon_grados:03d}{lon_minutos:02d}{lon_segundos:02d}"
+
+
+        F.write(airports[i].icao + " " + lat_str + " " + lon_str + "\n")            #escribimos!
+        i += 1
+    F.close()
+
+########################################################################################################################
+#####################################       IS SCHENGEN  ????       ####################################################
+########################################################################################################################
+
+def IsSchengen(icao):
+    F = open("SchengenList.txt", "r")
     linea = F.readline()
     while linea != "":
-        if pais_icao == linea.strip().upper():
+        if icao[:2] == linea.strip().upper():
             F.close()
             return True
         linea = F.readline()
@@ -104,49 +130,46 @@ def IsSchengen(airport):
     F.close()
     return False
 
-##################### SUBRUTINA SET-SCHENGEN ###################
+########################################################################################################################
+#####################################       SET SCHENGEN            ####################################################
+########################################################################################################################
 def SetSchengen(icao):
     if IsSchengen(icao) == True:
-        Airport.schengen = True
+        Airport.schengen = True                 # Hay que REVISAR LA FUNCION
     else:
         Airport.schengen = False
 
 ##################### SUBRUTINA PRINT-AIRPORT ###################
 
 def PrintAirport(airport):
-    print("entro a PrintAirport")
-    F = open("airports.txt", "r")
-    linea= F.readline()
-    FinaldeLinea = False
+
+    lista_aeropuertos = LoadAirports("airports.txt")
+    i = 0
     Encontrado = False
     CodigoBuscado = airport.icao.upper()
 
-    while FinaldeLinea == False and Encontrado == False:
-        elements = linea.strip().split(" ")
-        if len(elements) < 3:
-            linea = F.readline()        # Salto de linea si esta incompleta
-            continue
+    while i < len(lista_aeropuertos) and Encontrado == False:
 
-        if elements[0] == CodigoBuscado:
-            print("Codigo ICAO: ", elements[0])
-            print("Latitude: ", elements[1])
-            print("Longitude: ", elements[2])
-            #print("Schengen: ", elements[3])               #Hay que adecuar la lista a schengens
+        if lista_aeropuertos[i].icao == CodigoBuscado:
+            print("Codigo ICAO: ", lista_aeropuertos[i].icao)
+            print("Latitude: ", lista_aeropuertos[i].latitude)
+            print("Longitude: ", lista_aeropuertos[i].longitude)
+            print("Schengen: ", lista_aeropuertos[i].schengen)
             Encontrado = True
 
-        elif linea == "":
-            print("No se ha encontrado el aeropuerto")
-            FinaldeLinea = True
+        i += 1
 
-        linea = F.readline()
-    F.close()
+    if Encontrado == False:
+        print("No se ha encontrado el aeropuerto")
 
-############################# LOAD AIRPORTS #######################
-def LoadAirports(origen):
+########################################################################################################################
+#####################################       IS SCHENGEN  ????       ####################################################
+########################################################################################################################
+def LoadAirports(filename):
     lista_aeropuertos = []
 
     try:
-        f = open(origen, "r")
+        f = open(filename, "r")
 
         f.readline()
         linea = f.readline()
@@ -159,7 +182,7 @@ def LoadAirports(origen):
                 linea = f.readline()
                 continue
 
-            icao = datos[0]
+            icao = datos[0]             ### sacar datos del archivo por posición
             lat_str = datos[1]
             lon_str = datos[2]
 
@@ -173,46 +196,68 @@ def LoadAirports(origen):
                 lon_dec = lon_dec * -1   #### conversor longitudes
 
 
-
             nuevo_aeropuerto = Airport(icao, lat_dec, lon_dec)
-
-            nuevo_aeropuerto.schengen = IsSchengen(nuevo_aeropuerto)
-
-            lista_aeropuertos.append(nuevo_aeropuerto)
-
+            #nuevo_aeropuerto.schengen = IsSchengen(nuevo_aeropuerto)
+            lista_aeropuertos.append(nuevo_aeropuerto)             # esto lo elimino de momento porque no quiero
+                                                                    # ninguna conversion de archivo
             linea = f.readline()
-
         f.close()
 
     except FileNotFoundError:
+        print("Archivo NO Encontrado")
         return []
 
     return lista_aeropuertos
 
-def SaveSchengenAirports(filename):
-    F = open(filename, "r")
-    R = open("ResultsSchengen.txt","w")
-    linea = F.readline()
+########################################################################################################################
+#####################################    SAVE SCHENGEN AIRPORTS     ####################################################
+########################################################################################################################
 
-    while linea != "":
-        elements = linea.split(" ")
-        schengen = elements[2].strip()[0]           ############################################## Cuidao Index
-        icao = elements[0]
+def SaveSchengenAirports(airports, filename):
+    F = open(filename, "w")
+    F.write("CODE LAT LON\n")
 
-        if schengen == True:
-            R.write(str(icao))
-            R.write("\n")
-        linea = F.readline()
+    i = 0
+    while i < len(airports):
+        airports[i].schengen = IsSchengen(airports[i].icao)
+
+        if airports[i].schengen == True:
+            lat = airports[i].latitude      #conversor Latitudes
+            if lat >= 0:
+                lat_dir = "N"
+            else:
+                lat_dir = "S"
+                lat = -lat
+            lat_grados = int(lat)
+            lat_minutos = int((lat - lat_grados) * 60)
+            lat_segundos = int((((lat - lat_grados) * 60) - lat_minutos) * 60)
+            lat_str = lat_dir + f"{lat_grados:02d}{lat_minutos:02d}{lat_segundos:02d}"
+
+            lon = airports[i].longitude     #conversor Longitudes
+            if lon >= 0:
+                lon_dir = "E"
+            else:
+                lon_dir = "W"
+                lon = -lon
+            lon_grados = int(lon)
+            lon_minutos = int((lon - lon_grados) * 60)
+            lon_segundos = int((((lon - lon_grados) * 60) - lon_minutos) * 60)
+            lon_str = lon_dir + f"{lon_grados:03d}{lon_minutos:02d}{lon_segundos:02d}"
+
+
+            F.write(airports[i].icao + " " + lat_str + " " + lon_str + "\n")    #escritura final!
+
+        i += 1
+
+    F.close()
 
 
 ##################### PLOTS ###################
 
 
 def PlotAirports(airports):
-
     is_schengen = 0
     no_schengen = 0
-
     i = 0
     while i < len(airports):
         if airports[i].schengen == True:
@@ -236,6 +281,13 @@ def PlotAirports(airports):
 ######### ERRORES DETECTADOS ############
 # 1. Se edita el fichero Airports.txt con las lat y lon en decimal si se usa la funcion LoadAirports
 # 2. No existe pintar los aeropuertos en google earth.
+# 3. PrintAirport!
+
+######## TEST PGM PRINCIPAL #############
+
+
+
+
 
 
 
