@@ -197,9 +197,8 @@ def LoadAirports(filename):
 
 
             nuevo_aeropuerto = Airport(icao, lat_dec, lon_dec)
-            #nuevo_aeropuerto.schengen = IsSchengen(nuevo_aeropuerto)
-            lista_aeropuertos.append(nuevo_aeropuerto)             # esto lo elimino de momento porque no quiero
-                                                                    # ninguna conversion de archivo
+            lista_aeropuertos.append(nuevo_aeropuerto)
+
             linea = f.readline()
         f.close()
 
@@ -252,7 +251,9 @@ def SaveSchengenAirports(airports, filename):
     F.close()
 
 
-##################### PLOTS ###################
+########################################################################################################################
+#####################################       PLOT       AIRPORTS     ####################################################
+########################################################################################################################
 
 
 def PlotAirports(airports):
@@ -278,13 +279,41 @@ def PlotAirports(airports):
     print(f"Mostrando gráfico: {is_schengen} Schengen, {no_schengen} No Schengen")
     plt.show()
 
-######### ERRORES DETECTADOS ############
-# 1. Se edita el fichero Airports.txt con las lat y lon en decimal si se usa la funcion LoadAirports
+
 # 2. No existe pintar los aeropuertos en google earth.
 # 3. PrintAirport!
 
-######## TEST PGM PRINCIPAL #############
+########################################################################################################################
+#####################################    GOOGLE EARTH AIRPORTS      ####################################################
+########################################################################################################################
 
+def MapAirports(lista):
+    F = open("mapairports.kml", "w", encoding="utf-8")
+
+    F.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+    F.write('<kml xmlns="http://www.opengis.net/kml/2.2">\n')
+    F.write('<Document>\n')
+    F.write('<name>Airports Map</name>\n')
+
+    i = 0
+    while i < len(lista):
+        icao = lista[i].icao
+        lat = lista[i].latitude
+        lon = lista[i].longitude
+
+        F.write('<Placemark>\n')
+        F.write(f'<name>{icao}</name>\n')
+        F.write('<Point>\n')
+        F.write(f'<coordinates>{lon},{lat},0</coordinates>\n')
+        F.write('</Point>\n')
+        F.write('</Placemark>\n')
+
+        i += 1
+
+    F.write('</Document>\n')
+    F.write('</kml>\n')
+
+    F.close()
 
 
 
