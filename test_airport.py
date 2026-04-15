@@ -31,3 +31,4 @@ for i in range(len(airports)):
 
 print(len(lista))
 PlotAirports(airports)
+

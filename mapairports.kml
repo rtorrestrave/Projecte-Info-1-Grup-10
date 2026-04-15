@@ -17,7 +17,7 @@
 <Placemark>
 <name>DAAG</name>
 <Point>
-<coordinates>3.2144444444444447,36.689722222222215,0</coordinates>
+<coordinates>3.2144444444444447,36.68861111111111,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -47,7 +47,7 @@
 <Placemark>
 <name>EBOS</name>
 <Point>
-<coordinates>2.8622222222222224,51.19472222222222,0</coordinates>
+<coordinates>2.8622222222222224,51.19361111111111,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -65,7 +65,7 @@
 <Placemark>
 <name>EDDH</name>
 <Point>
-<coordinates>9.984166666666665,53.63,0</coordinates>
+<coordinates>9.983055555555556,53.63,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -239,7 +239,7 @@
 <Placemark>
 <name>EHEH</name>
 <Point>
-<coordinates>5.370277777777777,51.45,0</coordinates>
+<coordinates>5.3694444444444445,51.45,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -329,7 +329,7 @@
 <Placemark>
 <name>EVRA</name>
 <Point>
-<coordinates>23.966944444444444,56.92166666666667,0</coordinates>
+<coordinates>23.96638888888889,56.92166666666667,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -359,7 +359,7 @@
 <Placemark>
 <name>GCXO</name>
 <Point>
-<coordinates>-16.34111111111111,28.47861111111111,0</coordinates>
+<coordinates>-16.34111111111111,28.477777777777778,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -413,13 +413,13 @@
 <Placemark>
 <name>KEWR</name>
 <Point>
-<coordinates>-74.16833333333334,40.692499999999995,0</coordinates>
+<coordinates>-74.16833333333334,40.69138888888889,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>KIAD</name>
 <Point>
-<coordinates>-77.4563888888889,38.94083333333333,0</coordinates>
+<coordinates>-77.4563888888889,38.939722222222215,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -449,7 +449,7 @@
 <Placemark>
 <name>LBSF</name>
 <Point>
-<coordinates>23.404722222222222,42.69083333333333,0</coordinates>
+<coordinates>23.404722222222222,42.689722222222215,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -575,7 +575,7 @@
 <Placemark>
 <name>LESO</name>
 <Point>
-<coordinates>-1.7863888888888888,43.35611111111111,0</coordinates>
+<coordinates>-1.7852777777777777,43.35611111111111,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -593,7 +593,7 @@
 <Placemark>
 <name>LEVD</name>
 <Point>
-<coordinates>-4.847777777777777,41.70611111111111,0</coordinates>
+<coordinates>-4.8475,41.70611111111111,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -605,13 +605,13 @@
 <Placemark>
 <name>LEXJ</name>
 <Point>
-<coordinates>-3.815833333333333,43.426944444444445,0</coordinates>
+<coordinates>-3.8155555555555556,43.426944444444445,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>LEZL</name>
 <Point>
-<coordinates>-5.894722222222222,37.41638888888889,0</coordinates>
+<coordinates>-5.8936111111111105,37.41638888888889,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -647,7 +647,7 @@
 <Placemark>
 <name>LFML</name>
 <Point>
-<coordinates>5.214166666666667,43.4325,0</coordinates>
+<coordinates>5.214166666666667,43.43222222222222,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -707,7 +707,7 @@
 <Placemark>
 <name>LGAV</name>
 <Point>
-<coordinates>23.944444444444446,37.9325,0</coordinates>
+<coordinates>23.944444444444446,37.93222222222222,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -725,7 +725,7 @@
 <Placemark>
 <name>LGMK</name>
 <Point>
-<coordinates>25.344444444444445,37.433055555555555,0</coordinates>
+<coordinates>25.344444444444445,37.43222222222222,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -737,7 +737,7 @@
 <Placemark>
 <name>LGTS</name>
 <Point>
-<coordinates>22.966666666666665,40.519444444444446,0</coordinates>
+<coordinates>22.96638888888889,40.519444444444446,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -785,13 +785,13 @@
 <Placemark>
 <name>LIMF</name>
 <Point>
-<coordinates>7.645277777777777,45.2025,0</coordinates>
+<coordinates>7.644166666666666,45.2025,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>LIML</name>
 <Point>
-<coordinates>9.278333333333334,45.445277777777775,0</coordinates>
+<coordinates>9.278333333333334,45.44416666666666,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -941,7 +941,7 @@
 <Placemark>
 <name>LYTV</name>
 <Point>
-<coordinates>18.719166666666666,42.40416666666667,0</coordinates>
+<coordinates>18.718055555555555,42.40416666666667,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>

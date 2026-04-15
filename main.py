@@ -17,6 +17,7 @@ def add_airport():
     entry_lat = tk.Entry(win)
     entry_lat.pack()
 
+
     tk.Label(win, text="Longitud (decimal)").pack(pady=5)
     entry_lon = tk.Entry(win)
     entry_lon.pack()
@@ -84,8 +85,11 @@ def plot_airports():
 
 def map_airports():
     global airports
-    MapAirports(airports)
-    messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
+    if airports == []:
+        messagebox.showinfo("Error al exportar mapa", "Error: No existen aeropuertos cargados.")
+    else:
+        MapAirports(airports)
+        messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
 
 def buscar_airport():
     global airports
