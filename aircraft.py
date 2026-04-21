@@ -224,9 +224,8 @@ def PlotAirlines(aircrafts):
     plt.xlabel("Compañía")
     plt.ylabel("Número de Vuelos")
 
-    # Giro de los nombres de abajo (eje X) para evitar colisiones
-    # rotation=45 gira el texto, ha='right' alinea el final del texto con la marca
-    plt.xticks(rotation=45, ha='right')
+
+    plt.xticks(rotation=90, ha='right')
 
     # Ajuste automático para que no se corten las etiquetas al girarlas
     plt.tight_layout()
@@ -238,9 +237,8 @@ def PlotAirlines(aircrafts):
 #################################       KML VUELOS            ##########################################################
 ########################################################################################################################
 
-def MapFlights(aircrafts):
+def MapFlights(aircrafts,airports):
     F = open("routes.kml", "w", encoding="utf-8")
-
     F.write('<?kml version="1.0" encoding="UTF-8"?>\n')
     F.write('<kml xmlns="http://www.opengis.net/kml/2.2">\n')
     F.write('<Document>\n')
@@ -248,31 +246,46 @@ def MapFlights(aircrafts):
 
     i=0
 
+    #class Aircraft:
+    #    def __init__(self, id, company, origin, landtime):
+
     while i < len(aircrafts):
 
-        icao = aircrafts[i].icao
-        lat_origen= aircrafts[i].latitude
-        lon_origen = aircrafts[i].longitude
+        icao = aircrafts[i].origin
 
-        if aircrafts[i].is_schengen == True:
-            color = 'ffff0000'
+        encontrado = False
+        j = 0
+        while j < len(airports) and not encontrado:
+            if airports[j].icao == icao:
+                encontrado = True
+                lat_origen = airports[j].latitude
+                lon_origen = airports[j].longitude
+            else:
+                j = j+1
+
+        if not encontrado:
+            print("Error: Aeropuerto no listado")
         else:
-            color = "ff0000ff"
+            airports[j].schengen = IsSchengen(airports[j].icao)
+            if airports[j].schengen == True:
+                color = "ff00ff00" #verde
+            else:
+                color = "ff0000ff" #rojo
 
-        F.write('<Placemark>\n')
-        F.write(f'  <name>Flight {icao}</name>\n')
+            F.write('<Placemark>\n')
+            F.write(f'  <name>Flight {icao}</name>\n')
 
-        F.write('  <Style>\n')
-        F.write('    <LineStyle>\n')
-        F.write(f'      <color>{color}</color>\n')
-        F.write('      <width>2</width>\n')
-        F.write('    </LineStyle>\n')
-        F.write('  </Style>\n')
+            F.write('  <Style>\n')
+            F.write('    <LineStyle>\n')
+            F.write(f'      <color>{color}</color>\n')
+            F.write('      <width>2</width>\n')
+            F.write('    </LineStyle>\n')
+            F.write('  </Style>\n')
 
-        F.write('  <LineString>\n')
-        F.write(f'    <coordinates>{lon_ori},{lat_ori},0 2.1089,41.2974,0</coordinates>\n')
-        F.write('  </LineString>\n')
-        F.write('</Placemark>\n')
+            F.write('  <LineString>\n')
+            F.write(f'    <coordinates>{lon_origen},{lat_origen},0 2.1089,41.2974,0</coordinates>\n')
+            F.write('  </LineString>\n')
+            F.write('</Placemark>\n')
 
         i += 1
 
@@ -280,42 +293,72 @@ def MapFlights(aircrafts):
     F.write('</kml>\n')
     F.close()
 
-
 ########################################################################################################################
 #################################       PLOT TIPOS VUELO      ##########################################################
 ########################################################################################################################
-# Grafica de vols schengen i no schengen
+
 def PlotFlightsType (aircrafts):
-    if len(aircrafts)==0:
-        print("Error, the list is EMPTY")
-        return
-    schengen = []
-    no_schengen = []
-    tots=[]
-    for plane in aircrafts:
-        nom= plane['tipus']
-        if name not in tots:
-            tots.append(nom)
-            schengen[nom]=0
-            no_schengen[nom] = 0
-        if plane['is schengen']==True:
-            schengen[nom]+=1
+    schengen = 0
+    no_schengen = 0
+
+    for aircraft in aircrafts:
+        if IsSchengen(aircraft.origin)==True:
+            schengen +=1
         else:
-            no_schengen[nom]+=1
+            no_schengen +=1
+    labels = ['schengen','no_schengen']
 
-    slist = [schengen[n] for n in tots]
-    noslist = [no_schengen[n] for n in tots]
-
-    plt.bar(tots, noslist, lebel="no schengen", color='orange')
-    plt.bar(tots, slist, bottom=noslist, lebel = "schengen" , color='blue')
+    plt.bar(["Llegadas"], [schengen], label="Schengen")
+    plt.bar(["Llegadas"], [no_schengen], bottom=[schengen], label="No_schengen")
+    plt.title("Tipos de Vuelo")
+    plt.ylabel("Cantidad")
     plt.legend()
     plt.show()
-
-
 
 #TEST PGM PRINCIPAL
 
 if __name__ == "__main__":
-    aircrafts = LoadArrivals("Arrivals.txt")
-    PlotArrivals (aircrafts)
+    print("--- TEST DE FUNCIONES DE AIRCRAFT ---")
+    import airport
+
+    print("\n1. Cargando base de datos de aeropuertos...")
+    lista_airports = airport.LoadAirports("airports.txt")
+
+    # TEST LoadArrivals
+    print("\n2. Test LoadArrivals:")
+    vuelos = LoadArrivals("Arrivals2PROV.txt")
+    if vuelos:
+        print(f"OK: Se han cargado {len(vuelos)} vuelos.")
+    else:
+        print("ERROR: No se pudieron cargar vuelos.")
+
+    # TEST SaveFlights
+    print("\n3. Test SaveFlights:")
+    SaveFlights(vuelos, "Test_Output_Flights.txt")
+    print("OK: Archivo 'Test_Output_Flights.txt' generado.")
+
+    # TEST LongDistanceArrivals
+    print("\n4. Test LongDistanceArrivals:")
+    airport.airports = lista_airports
+    vuelos_largos = LongDistanceArrivals(vuelos)
+    print(f"OK: Encontrados {len(vuelos_largos)} vuelos de larga distancia (>2000km).")
+
+    # TEST MapFlights
+    print("\n5. Test MapFlights:")
+    MapFlights(vuelos, lista_airports)
+    print("OK: Archivo 'routes.kml' generado con éxito.")
+
+    # TEST Plots
+    print("\n6. Generando Gráficas (Cierra cada ventana para ver la siguiente)...")
+
+    print("Mostrando PlotArrivals (Horas)...")
+    PlotArrivals(vuelos)
+
+    print("Mostrando PlotAirlines (Compañías)...")
+    PlotAirlines(vuelos)
+
+    print("Mostrando PlotFlightsType (Schengen vs No-Schengen)...")
+    PlotFlightsType(vuelos)
+
+    print("\n--- TEST FINALIZADO ---")
 

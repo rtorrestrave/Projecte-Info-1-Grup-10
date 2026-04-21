@@ -150,7 +150,7 @@ def map_flights():
     if aircrafts == []:
         messagebox.showinfo("Error al exportar mapa", "Error: No existen vuelos cargados.")
     else:
-        MapFlights(aircrafts)
+        MapFlights(aircrafts,airports)
         messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
 
 ############################### GUI BUSCAR AEROPUERTO ##################################################################
