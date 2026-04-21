@@ -17,7 +17,7 @@
 <Placemark>
 <name>DAAG</name>
 <Point>
-<coordinates>3.2144444444444447,36.68861111111111,0</coordinates>
+<coordinates>3.2144444444444447,36.68833333333333,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -47,7 +47,7 @@
 <Placemark>
 <name>EBOS</name>
 <Point>
-<coordinates>2.8622222222222224,51.19361111111111,0</coordinates>
+<coordinates>2.8622222222222224,51.19333333333333,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -413,13 +413,13 @@
 <Placemark>
 <name>KEWR</name>
 <Point>
-<coordinates>-74.16833333333334,40.69138888888889,0</coordinates>
+<coordinates>-74.16833333333334,40.691111111111105,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>KIAD</name>
 <Point>
-<coordinates>-77.4563888888889,38.939722222222215,0</coordinates>
+<coordinates>-77.4563888888889,38.93944444444444,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -449,7 +449,7 @@
 <Placemark>
 <name>LBSF</name>
 <Point>
-<coordinates>23.404722222222222,42.689722222222215,0</coordinates>
+<coordinates>23.404722222222222,42.68944444444444,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -611,7 +611,7 @@
 <Placemark>
 <name>LEZL</name>
 <Point>
-<coordinates>-5.8936111111111105,37.41638888888889,0</coordinates>
+<coordinates>-5.893333333333333,37.41638888888889,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -785,13 +785,13 @@
 <Placemark>
 <name>LIMF</name>
 <Point>
-<coordinates>7.644166666666666,45.2025,0</coordinates>
+<coordinates>7.643888888888888,45.2025,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>LIML</name>
 <Point>
-<coordinates>9.278333333333334,45.44416666666666,0</coordinates>
+<coordinates>9.278333333333334,45.443888888888885,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -941,7 +941,7 @@
 <Placemark>
 <name>LYTV</name>
 <Point>
-<coordinates>18.718055555555555,42.40416666666667,0</coordinates>
+<coordinates>18.717777777777776,42.40416666666667,0</coordinates>
 </Point>
 </Placemark>
 <Placemark>
