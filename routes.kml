@@ -6064,3 +6064,6065 @@
 </Placemark>
 </Document>
 </kml>
+<Placemark>
+  <name>Flight LYBE</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>20.30666666666667,44.81944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGCC</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LMML</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>14.477500000000001,35.8575,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LGTS</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>22.970555555555553,40.519444444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.142777777777778,50.865833333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LGSR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>25.478888888888886,36.39888888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.23611111111111,51.42388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LGAV</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>23.944444444444446,37.936388888888885,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBLG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.4425,50.63611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight KJFK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-73.77833333333334,40.64,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LROP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>26.084722222222222,44.571111111111115,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight BIKF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-22.605555555555558,63.984722222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBOS</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.8622222222222224,51.198611111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIMC</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.723055555555556,45.63,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEZL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDS</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.221944444444444,48.689722222222215,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBAW</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.460277777777778,51.189166666666665,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight URKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>39.16972222222222,45.03444444444444,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LHBP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>19.261944444444445,47.439166666666665,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.0808333333333335,45.72555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEZL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LECO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.377222222222223,43.301944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.786111111111111,48.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UUEE</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>37.41277777777778,55.972500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EFHK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>24.963055555555556,60.31722222222223,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.7572222222222225,51.280833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight KATL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-84.43333333333334,33.63305555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>13.500555555555556,52.36194444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEAS</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.034722222222222,43.56333333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.547777777777778,47.45805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ULLI</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>30.26222222222222,59.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LGMK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>25.346944444444443,37.43694444444444,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDV</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.683333333333334,52.46027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHEH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.3741666666666665,51.45,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UUDD</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>37.90611111111111,55.40833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.7572222222222225,51.280833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight OLBA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>35.49,33.81916666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.677777777777777,41.23555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LOWW</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight KEWR</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-74.16833333333334,40.69638888888888,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEZL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight SBGR</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-46.469722222222224,-23.433333333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EKCH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.655833333333334,55.61805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.142777777777778,50.865833333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LESO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.7902777777777776,43.35611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EIDW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LTBA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>28.81416666666667,40.976111111111116,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>13.500555555555556,52.36194444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LOWW</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LOWW</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.7480555555555557,52.45388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIME</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.7,45.66861111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGD</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.7191666666666667,51.3825,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EIDW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFRS</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.607777777777778,47.156666666666666,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight CYUL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-73.74138888888889,45.46805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFST</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.634166666666666,48.541666666666664,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.8497222222222223,53.333333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGCC</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEGR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.776944444444444,37.18833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGPH</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.3725,55.95,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UWKD</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>49.28,55.60666666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight DAAG</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>3.2144444444444447,36.69361111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGAA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.2155555555555555,54.657222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEST</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.415277777777778,42.89611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.7480555555555557,52.45388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFMN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.214722222222222,43.665,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LROP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>26.084722222222222,44.571111111111115,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFOB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.112777777777778,49.45444444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LROP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>26.084722222222222,44.571111111111115,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LLBG</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>34.88527777777778,32.00944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight KMIA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-80.28305555555555,25.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LGAV</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>23.944444444444446,37.936388888888885,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCLP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-15.386666666666667,27.931944444444447,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ENGM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.08388888888889,60.20277777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEZL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGCC</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EPWA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>20.966944444444444,52.16555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight KPHL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-75.245,39.86972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UUEE</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>37.41277777777778,55.972500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCXO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-16.341388888888886,28.482499999999998,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ULLI</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>30.26222222222222,59.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LDZA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.06888888888889,45.74305555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.786111111111111,48.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGSS</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>0.23500000000000001,51.88472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEVX</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.627500000000001,42.22916666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ENGM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.08388888888889,60.20277777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRQ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.202499999999999,43.80833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.3680555555555555,51.874722222222225,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPZ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.351666666666667,45.505,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGCC</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFSB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.529166666666667,47.59,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LLBG</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>34.88527777777778,32.00944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EKCH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.655833333333334,55.61805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFBD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.715,44.828611111111115,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPE</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.296666666666667,44.530833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight CYYZ</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-79.63027777777778,43.676944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LDSP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.298055555555557,43.53861111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LLBG</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>34.88527777777778,32.00944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.547777777777778,47.45805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GMMN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-7.581388888888888,33.36416666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.3680555555555555,51.874722222222225,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight DTTA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>10.226944444444445,36.850833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.786111111111111,48.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFCK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.290277777777778,43.55472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGNM</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.6605555555555556,53.865833333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.23611111111111,51.42388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight KJFK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-73.77833333333334,40.64,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight KCLT</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-80.95,35.21666666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIML</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.278333333333334,45.44916666666666,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight CYUL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-73.74138888888889,45.46805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.988055555555555,53.63,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight CYYZ</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-79.63027777777778,43.676944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight KIAD</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-77.4563888888889,38.94472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UKBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>30.893333333333334,50.344722222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LLBG</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>34.88527777777778,32.00944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGNX</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.3275,52.83111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFQQ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>3.0869444444444447,50.56305555555555,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHEH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.3741666666666665,51.45,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LTFJ</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>29.30888888888889,40.89833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LKPR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>14.259722222222223,50.100833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UKBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>30.893333333333334,50.344722222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.7480555555555557,52.45388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight OTHH</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>51.608333333333334,25.274444444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ESGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.290833333333333,57.65972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight OMDB</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>55.359722222222224,25.249166666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>13.287777777777778,52.559444444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.988055555555555,53.63,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEVC</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4816666666666667,39.489444444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LKPR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>14.259722222222223,50.100833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ELLX</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.204166666666667,49.623333333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GMMX</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.040833333333333,31.608611111111113,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LTBA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>28.81416666666667,40.976111111111116,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFMN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.214722222222222,43.665,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EYVI</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>25.28777777777778,54.636944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LTFJ</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>29.30888888888889,40.89833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.37,36.84388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIMC</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.723055555555556,45.63,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight HECA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>31.41361111111111,30.11138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFRN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.7322222222222223,48.07194444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.547777777777778,47.45805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GMFF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-4.977777777777778,33.926944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ETNL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.278333333333334,53.91888888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.786111111111111,48.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIMF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.649166666666666,45.2025,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>13.500555555555556,52.36194444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-4.498888888888889,36.67472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight SKBO</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-74.15,4.7,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LYTV</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>18.723055555555554,42.404444444444444,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIMF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.649166666666666,45.2025,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-4.498888888888889,36.67472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.197777777777778,45.650555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFSB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.529166666666667,47.59,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ENBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.218055555555556,60.29361111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.416388888888889,47.18138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EPWA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>20.966944444444444,52.16555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGSS</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>0.23500000000000001,51.88472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ESSA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>17.91861111111111,59.651944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIME</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.7,45.66861111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCXO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-16.341388888888886,28.482499999999998,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight SAEZ</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-58.535555555555554,-34.82222222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEST</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.415277777777778,42.89611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEBZ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.821111111111111,38.89138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UUEE</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>37.41277777777778,55.972500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight SBGR</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-46.469722222222224,-23.433333333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFSB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.529166666666667,47.59,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GMMN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-7.581388888888888,33.36416666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ELLX</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.204166666666667,49.623333333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEJR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.059722222222222,36.74472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EFHK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>24.963055555555556,60.31722222222223,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.077777777777778,49.498333333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHEH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.3741666666666665,51.45,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDS</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.221944444444444,48.689722222222215,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LTBA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>28.81416666666667,40.976111111111116,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LTFJ</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>29.30888888888889,40.89833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGNT</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.6897222222222223,55.03777777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UUDD</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>37.90611111111111,55.40833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEZL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCFV</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-13.863888888888889,28.4525,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ENGM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.08388888888889,60.20277777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEGR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.776944444444444,37.18833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LDDU</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>18.268055555555556,42.56111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.8497222222222223,53.333333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEAL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.5580555555555556,38.282222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.077777777777778,49.498333333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.786111111111111,48.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.547777777777778,47.45805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.988055555555555,53.63,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.8497222222222223,53.333333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDV</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.683333333333334,52.46027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GMMN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-7.581388888888888,33.36416666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFBD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.715,44.828611111111115,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPZ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.351666666666667,45.505,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LICJ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>13.099444444444446,38.181666666666665,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIBD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.765,41.13777777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LOWW</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.786111111111111,48.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>14.290833333333333,40.884166666666665,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFML</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.214722222222222,43.436388888888885,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GMMX</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.040833333333333,31.608611111111113,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGFF</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.343055555555556,51.39666666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEXJ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.819722222222222,43.426944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEVD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-4.851666666666667,41.70611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDS</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.221944444444444,48.689722222222215,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGNM</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.6605555555555556,53.865833333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCXO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-16.341388888888886,28.482499999999998,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGSS</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>0.23500000000000001,51.88472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ESKN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.90361111111111,58.788333333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCRR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-13.605,28.94527777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LRCL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>23.692222222222224,46.788888888888884,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EVRA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>23.97083333333333,56.92333333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ESSA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>17.91861111111111,59.651944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.7572222222222225,51.280833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>13.500555555555556,52.36194444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>13.287777777777778,52.559444444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.142777777777778,50.865833333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGNM</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.6605555555555556,53.865833333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ENGM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.08388888888889,60.20277777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.7572222222222225,51.280833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCLP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-15.386666666666667,27.931944444444447,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCXO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-16.341388888888886,28.482499999999998,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.547777777777778,47.45805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIMC</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.723055555555556,45.63,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.547777777777778,47.45805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPZ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.351666666666667,45.505,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LESO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.7902777777777776,43.35611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHRD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.436944444444444,51.956944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LOWW</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight OTHH</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>51.608333333333334,25.274444444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight DAAG</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>3.2144444444444447,36.69361111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEVX</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.627500000000001,42.22916666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EPKT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>19.079722222222223,50.47416666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGMC</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>0.6933333333333334,51.57027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EFHK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>24.963055555555556,60.31722222222223,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFSB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.529166666666667,47.59,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight OMDB</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>55.359722222222224,25.249166666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LOWW</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.0808333333333335,45.72555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EIDW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSGG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGNT</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-1.6897222222222223,55.03777777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ESSA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>17.91861111111111,59.651944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEZL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCRR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-13.605,28.94527777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-4.498888888888889,36.67472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LWSK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>21.62138888888889,41.96138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGPK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-4.594166666666666,55.50944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEVD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-4.851666666666667,41.70611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.8497222222222223,53.333333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCLP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-15.386666666666667,27.931944444444447,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LBSF</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>23.408055555555553,42.69472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EKCH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.655833333333334,55.61805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight HTDA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>39.20305555555556,-6.875555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.786111111111111,48.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIMC</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.723055555555556,45.63,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EFHK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>24.963055555555556,60.31722222222223,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGCC</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LELN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.6561111111111115,42.58861111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEAS</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.034722222222222,43.56333333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPE</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.296666666666667,44.530833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ENGM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.08388888888889,60.20277777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGD</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.7191666666666667,51.3825,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEZL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEJR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.059722222222222,36.74472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEVC</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4816666666666667,39.489444444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.677777777777777,41.23555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight BIKF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-22.605555555555558,63.984722222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EIDW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GMTT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.921111111111111,35.73166666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.677777777777777,41.23555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEBB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LUKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>28.930833333333336,46.927499999999995,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EKBI</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.151666666666667,55.74,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>5.0808333333333335,45.72555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.547777777777778,47.45805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEAL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.5580555555555556,38.282222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEST</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.415277777777778,42.89611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LROP</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>26.084722222222222,44.571111111111115,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LTBA</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>28.81416666666667,40.976111111111116,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIEE</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.055833333333334,39.246944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.786111111111111,48.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EIDW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRQ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.202499999999999,43.80833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LHBP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>19.261944444444445,47.439166666666665,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGLL</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.4613888888888889,51.477222222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LSZH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.547777777777778,47.45805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMD</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LDDU</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>18.268055555555556,42.56111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-4.498888888888889,36.67472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.570555555555556,50.033055555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight ENGM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.08388888888889,60.20277777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFOB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.112777777777778,49.45444444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>6.7572222222222225,51.280833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UUEE</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>37.41277777777778,55.972500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EKCH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.655833333333334,55.61805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LKPR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>14.259722222222223,50.100833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EIDW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIEO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.517777777777779,40.89833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.3680555555555555,51.874722222222225,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEGR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-3.776944444444444,37.18833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIME</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.7,45.66861111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPE</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>11.296666666666667,44.530833333333334,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.197777777777778,45.650555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>13.500555555555556,52.36194444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LECO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.377222222222223,43.301944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EBBR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPO</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.3794444444444447,48.723333333333336,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIMC</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>8.723055555555556,45.63,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEVX</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.627500000000001,42.22916666666667,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight UUDD</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>37.90611111111111,55.40833333333333,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEZL</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEPA</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFPG</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LPPR</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-8.677777777777777,41.23555555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EHAM</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LGAV</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>23.944444444444446,37.936388888888885,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIRP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>10.395277777777777,43.6825,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPX</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>10.887777777777778,45.39611111111111,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGSS</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>0.23500000000000001,51.88472222222222,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight GCLP</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-15.386666666666667,27.931944444444447,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIPZ</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>12.351666666666667,45.505,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight BIKF</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-22.605555555555558,63.984722222222224,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EDDK</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.142777777777778,50.865833333333335,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGKK</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LIEE</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>9.055833333333334,39.246944444444445,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGGW</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.3680555555555555,51.874722222222225,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEMH</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>4.2186111111111115,39.862500000000004,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFMN</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>7.214722222222222,43.665,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight EGCC</name>
+  <Style>
+    <LineStyle>
+      <color>ff0000ff</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LFBT</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>-0.002777777777777778,43.18527777777778,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+<Placemark>
+  <name>Flight LEIB</name>
+  <Style>
+    <LineStyle>
+      <color>ff00ff00</color>
+      <width>2</width>
+    </LineStyle>
+  </Style>
+  <LineString>
+    <coordinates>1.3730555555555557,38.8725,0 2.1089,41.2974,0</coordinates>
+  </LineString>
+</Placemark>
+</Document>
+</kml>
