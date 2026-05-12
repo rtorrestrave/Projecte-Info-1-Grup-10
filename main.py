@@ -282,6 +282,8 @@ lbl_version.pack(side=tk.RIGHT, padx=20, pady=(30, 0))
 
 root.mainloop()
 
+#qwfeadfadsf
+
 
 # ==== NOS FALLA =====
 # PLOT TIPOS DE VUELO
