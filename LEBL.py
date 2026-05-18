@@ -3,6 +3,12 @@
 ########################################################################################################################
 import matplotlib.pyplot as plt
 
+class BarcelonaAP:
+    def __init__(self, code):
+        self.code = code
+        self.terminals = []
+
+
 class Gate:
     def __init__(self, name):
         self.name = name
@@ -88,7 +94,7 @@ def LoadAirlines(terminal, t_name):
 
 
 ########################################################################################################################
-#####################################              def GateOccupancy    (JOAN)           #####################################
+#####################################         def GateOccupancy    (JOAN)     ##########################################
 ########################################################################################################################
 def GateOccupancy(bcn):
     gates_info = []
@@ -167,6 +173,104 @@ def PlotGates(gates_info):
 ########################################################################################################################
 #####################################              def AssignGate   (JOAN)               #####################################
 ########################################################################################################################
+
+########################################################################################################################
+#####################################           def LoadAirportStrutcure           #####################################
+########################################################################################################################
+
+def LoadAirportStructure(filename):
+    try:
+        f = open(filename, "r")
+    except:
+        return -1
+
+    linies=f.readlines()
+    f.close()
+    if len(linies) == 0:
+        return -1
+    primera_linea = linies[0].split()
+    if len(primera_linea) < 2:
+        return -1
+
+    airport_code = primera_linea[0]
+    nombre_terminals = int(primera_linea[1])
+    airport = BoardingArea(airport_code)
+
+    i = 1
+
+    for j in range(nombre_terminals):
+        while i < len(linies) and linies[i].strip == "":
+            i +=1
+        if i >= len(linies):
+            return -1
+        linia_terminal = linies[i].split()
+        if len(linia_terminal) < 3:
+            return -1
+        nom_terminal = linia_terminal[1]
+        nombre_arees = int(linia_terminal[2])
+        terminal = Terminal(nom_terminal)
+
+        i += 1
+
+        for a in range(nombre_arees):
+            while i < len(linies) and linies[i].strip() == "":
+                i +=1
+            if i >= len(linies):
+                return -1
+            linia_area = linies[i].split()
+            if len(area_linia) < 7:
+                return -1
+            lletra_area = area_linia[1]
+            tipus_area = linia_area[2]
+            init_gate = int(linia_area[4])
+            end_gate = int(linia_area[6])
+            area_name = nom_terminal + "BA" + lletra_area.lower()
+            area = BoardingArea(area_name, tipus_area)
+            prefix = area_name + "G"
+            result = SetGates(area, init_gate, end_gate, prefix)
+            if result == -1:
+                return -1
+            terminal.boarding_areas.append(area)
+            i += 1
+        result = LoadAirlines(terminal, nom_terminal)
+        if result == -1:
+            result -1
+        airport.terminals.append(terminal)
+    return airport
+
+########################################################################################################################
+#####################################           def IsAirlineInTerminal            #####################################
+########################################################################################################################
+
+def IsAirlineInTerminal (terminal, name):
+    if name == "":
+        return False
+    if name in terminal.airlines:
+        return True
+    else:
+        return False
+
+########################################################################################################################
+#####################################              def SearchTerminal              #####################################
+########################################################################################################################
+
+def SearchTerminal(bcn, name)
+    i=0
+    while i < len(bcn.terminals):
+        j = bcn.terminals[i]
+        if IsAirlineInTerminal(j, name):
+            return j.name
+        i += 1
+    return ""
+
+
+
+
+
+
+
+
+
 
 #### MODIFY UserInterface
 
