@@ -153,6 +153,16 @@ def map_flights():
         MapFlights(aircrafts,airports)
         messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
 
+def same_letter_airport_map():
+    global airports
+    if airports == []:
+        messagebox.showinfo("Error al exportar mapa", "Error: No existen aeropuertos cargados.")
+    else:
+        SameLetterAirportMap(airports)
+        messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
+
+
+
 ############################### GUI BUSCAR AEROPUERTO ##################################################################
 
 def buscar_airport():
@@ -223,6 +233,7 @@ frame_Maps.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5, pady=5)
 
 tk.Button(frame_Maps, text="Mapa Aeropuertos", command=map_airports).pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 tk.Button(frame_Maps, text="Mapa Vuelos", command=map_flights).pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+##tk.Button(frame_Maps, text="Mapa Aeropuertos capicua", command=same_letter_airport_map).pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
 # FRAME PLOTS
 
@@ -273,7 +284,7 @@ lbl_titulo.pack(side=tk.LEFT, padx=10)
 
 lbl_version = tk.Label(
     frame_header,
-    text="v2.0",
+    text="v3.0",
     font=("Arial", 10),
     bg="#2c3e50",
     fg="#bdc3c7"
@@ -281,8 +292,6 @@ lbl_version = tk.Label(
 lbl_version.pack(side=tk.RIGHT, padx=20, pady=(30, 0))
 
 root.mainloop()
-
-#qwfeadfadsf
 
 
 # ==== NOS FALLA =====
