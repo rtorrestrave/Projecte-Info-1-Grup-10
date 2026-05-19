@@ -23,7 +23,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.2744444444444443,53.35388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -47,7 +47,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>22.970555555555553,40.519444444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>22.970277777777778,40.519444444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -59,7 +59,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -83,7 +83,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>25.478888888888886,36.39888888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>25.47861111111111,36.39888888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -95,7 +95,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.23611111111111,51.42388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.235833333333332,51.42388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -107,7 +107,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>23.944444444444446,37.936388888888885,0 2.1089,41.2974,0</coordinates>
+    <coordinates>23.944444444444446,37.93611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -119,7 +119,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -131,7 +131,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>5.4425,50.63611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>5.442222222222222,50.63611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -143,7 +143,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -155,7 +155,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -179,7 +179,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -191,7 +191,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>26.084722222222222,44.571111111111115,0 2.1089,41.2974,0</coordinates>
+    <coordinates>26.084444444444443,44.571111111111115,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -203,7 +203,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -227,7 +227,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -239,7 +239,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -263,7 +263,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.8622222222222224,51.198611111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.8622222222222224,51.19833333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -287,7 +287,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-5.8983333333333325,37.4175,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -299,7 +299,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.221944444444444,48.689722222222215,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.221944444444444,48.68944444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -311,7 +311,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.460277777777778,51.189166666666665,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.460277777777778,51.18888888888888,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -323,7 +323,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>39.16972222222222,45.03444444444444,0 2.1089,41.2974,0</coordinates>
+    <coordinates>39.169444444444444,45.034166666666664,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -335,7 +335,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>19.261944444444445,47.439166666666665,0 2.1089,41.2974,0</coordinates>
+    <coordinates>19.261944444444445,47.43888888888888,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -359,7 +359,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-5.8983333333333325,37.4175,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -395,7 +395,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -407,7 +407,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>37.41277777777778,55.972500000000004,0 2.1089,41.2974,0</coordinates>
+    <coordinates>37.4125,55.972500000000004,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -455,7 +455,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -479,7 +479,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.034722222222222,43.56333333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.034722222222222,43.56305555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -491,7 +491,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -515,7 +515,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>30.26222222222222,59.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>30.261944444444445,59.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -527,7 +527,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>25.346944444444443,37.43694444444444,0 2.1089,41.2974,0</coordinates>
+    <coordinates>25.346666666666664,37.43666666666666,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -563,7 +563,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -575,7 +575,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>5.3741666666666665,51.45,0 2.1089,41.2974,0</coordinates>
+    <coordinates>5.373888888888889,51.45,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -587,7 +587,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>37.90611111111111,55.40833333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>37.905833333333334,55.408055555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -635,7 +635,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-8.677777777777777,41.23555555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-8.6775,41.23555555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -647,7 +647,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -659,7 +659,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>16.569166666666668,48.11027777777778,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -671,7 +671,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-74.16833333333334,40.69638888888888,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-74.16833333333334,40.69611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -695,7 +695,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-5.8983333333333325,37.4175,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -719,7 +719,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -743,7 +743,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -779,7 +779,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.7902777777777776,43.35611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.7899999999999998,43.35611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -803,7 +803,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -815,7 +815,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.269444444444445,53.420833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -827,7 +827,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -863,7 +863,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>16.569166666666668,48.11027777777778,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -875,7 +875,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>16.569166666666668,48.11027777777778,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -899,7 +899,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -923,7 +923,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.7,45.66861111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.699722222222222,45.66861111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -947,7 +947,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -959,7 +959,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.108888888888888,46.23833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -971,7 +971,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.269444444444445,53.420833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -983,7 +983,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.607777777777778,47.156666666666666,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.607777777777778,47.156388888888884,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1019,7 +1019,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>7.634166666666666,48.541666666666664,0 2.1089,41.2974,0</coordinates>
+    <coordinates>7.6338888888888885,48.54138888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1043,7 +1043,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1055,7 +1055,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.2744444444444443,53.35388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1067,7 +1067,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.776944444444444,37.18833333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.7766666666666664,37.18805555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1103,7 +1103,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>3.2144444444444447,36.69361111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>3.2144444444444447,36.69333333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1115,7 +1115,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.2155555555555555,54.657222222222224,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.215277777777778,54.657222222222224,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1127,7 +1127,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1139,7 +1139,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-8.415277777777778,42.89611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-8.415277777777778,42.895833333333336,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1163,7 +1163,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>7.214722222222222,43.665,0 2.1089,41.2974,0</coordinates>
+    <coordinates>7.214444444444444,43.664722222222224,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1175,7 +1175,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1187,7 +1187,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>26.084722222222222,44.571111111111115,0 2.1089,41.2974,0</coordinates>
+    <coordinates>26.084444444444443,44.571111111111115,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1211,7 +1211,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>26.084722222222222,44.571111111111115,0 2.1089,41.2974,0</coordinates>
+    <coordinates>26.084444444444443,44.571111111111115,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1247,7 +1247,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-80.28305555555555,25.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-80.28277777777778,25.8,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1259,7 +1259,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1271,7 +1271,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>23.944444444444446,37.936388888888885,0 2.1089,41.2974,0</coordinates>
+    <coordinates>23.944444444444446,37.93611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1307,7 +1307,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1319,7 +1319,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1331,7 +1331,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-5.8983333333333325,37.4175,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1343,7 +1343,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.2744444444444443,53.35388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1355,7 +1355,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>20.966944444444444,52.16555555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>20.966666666666665,52.16555555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1367,7 +1367,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1391,7 +1391,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>37.41277777777778,55.972500000000004,0 2.1089,41.2974,0</coordinates>
+    <coordinates>37.4125,55.972500000000004,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1403,7 +1403,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1415,7 +1415,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-16.341388888888886,28.482499999999998,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-16.34111111111111,28.48222222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1439,7 +1439,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1451,7 +1451,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>30.26222222222222,59.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>30.261944444444445,59.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1499,7 +1499,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.108888888888888,46.23833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1535,7 +1535,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>11.202499999999999,43.80833333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>11.202222222222222,43.808055555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1547,7 +1547,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.3680555555555555,51.874722222222225,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.36777777777777776,51.874722222222225,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1559,7 +1559,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.351666666666667,45.505,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.351388888888888,45.505,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1571,7 +1571,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1583,7 +1583,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.2744444444444443,53.35388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1643,7 +1643,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.715,44.828611111111115,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.7147222222222221,44.828611111111115,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1667,7 +1667,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-79.63027777777778,43.676944444444445,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-79.63,43.676944444444445,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1679,7 +1679,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>16.298055555555557,43.53861111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>16.298055555555557,43.538333333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1703,7 +1703,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.108888888888888,46.23833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1739,7 +1739,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-7.581388888888888,33.36416666666667,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-7.5811111111111105,33.36416666666667,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1751,7 +1751,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.3680555555555555,51.874722222222225,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.36777777777777776,51.874722222222225,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1787,7 +1787,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.290277777777778,43.55472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.290277777777778,43.55444444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1799,7 +1799,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.6605555555555556,53.865833333333335,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.6602777777777777,53.865833333333335,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1811,7 +1811,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.23611111111111,51.42388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.235833333333332,51.42388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1823,7 +1823,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1883,7 +1883,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1895,7 +1895,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.278333333333334,45.44916666666666,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.278333333333334,45.44888888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1907,7 +1907,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1919,7 +1919,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1931,7 +1931,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1943,7 +1943,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1955,7 +1955,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1967,7 +1967,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.9099999999999997,43.300555555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -1991,7 +1991,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.988055555555555,53.63,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.987777777777778,53.63,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2003,7 +2003,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.9099999999999997,43.300555555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2015,7 +2015,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2027,7 +2027,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-79.63027777777778,43.676944444444445,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-79.63,43.676944444444445,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2039,7 +2039,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2051,7 +2051,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-77.4563888888889,38.94472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-77.4563888888889,38.94444444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2063,7 +2063,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.9099999999999997,43.300555555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2099,7 +2099,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.3275,52.83111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.3272222222222223,52.83111111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2111,7 +2111,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>3.0869444444444447,50.56305555555555,0 2.1089,41.2974,0</coordinates>
+    <coordinates>3.0869444444444447,50.562777777777775,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2135,7 +2135,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>5.3741666666666665,51.45,0 2.1089,41.2974,0</coordinates>
+    <coordinates>5.373888888888889,51.45,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2231,7 +2231,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.290833333333333,57.65972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.290833333333333,57.659444444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2267,7 +2267,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.988055555555555,53.63,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.987777777777778,53.63,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2303,7 +2303,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.204166666666667,49.623333333333335,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.203888888888889,49.623333333333335,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2339,7 +2339,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2351,7 +2351,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>7.214722222222222,43.665,0 2.1089,41.2974,0</coordinates>
+    <coordinates>7.214444444444444,43.664722222222224,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2363,7 +2363,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2411,7 +2411,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2435,7 +2435,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>31.41361111111111,30.11138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>31.41333333333333,30.11138888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2495,7 +2495,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.278333333333334,53.91888888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.278333333333334,53.91861111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2519,7 +2519,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2531,7 +2531,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>7.649166666666666,45.2025,0 2.1089,41.2974,0</coordinates>
+    <coordinates>7.648888888888888,45.2025,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2543,7 +2543,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2567,7 +2567,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2579,7 +2579,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2591,7 +2591,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-4.498888888888889,36.67472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-4.498611111111111,36.67444444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2603,7 +2603,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.9099999999999997,43.300555555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2615,7 +2615,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2627,7 +2627,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2675,7 +2675,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2687,7 +2687,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2699,7 +2699,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>18.723055555555554,42.404444444444444,0 2.1089,41.2974,0</coordinates>
+    <coordinates>18.722777777777775,42.40416666666667,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2711,7 +2711,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>7.649166666666666,45.2025,0 2.1089,41.2974,0</coordinates>
+    <coordinates>7.648888888888888,45.2025,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2735,7 +2735,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-4.498888888888889,36.67472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-4.498611111111111,36.67444444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2819,7 +2819,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>20.966944444444444,52.16555555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>20.966666666666665,52.16555555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2867,7 +2867,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2879,7 +2879,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.7,45.66861111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.699722222222222,45.66861111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2891,7 +2891,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-16.341388888888886,28.482499999999998,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-16.34111111111111,28.48222222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2915,7 +2915,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2927,7 +2927,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-58.535555555555554,-34.82222222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-58.53527777777778,-34.82222222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2939,7 +2939,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2951,7 +2951,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-8.415277777777778,42.89611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-8.415277777777778,42.895833333333336,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2963,7 +2963,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.821111111111111,38.89138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.820833333333333,38.89138888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2975,7 +2975,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>37.41277777777778,55.972500000000004,0 2.1089,41.2974,0</coordinates>
+    <coordinates>37.4125,55.972500000000004,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -2999,7 +2999,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.108888888888888,46.23833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3011,7 +3011,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3023,7 +3023,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3047,7 +3047,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-7.581388888888888,33.36416666666667,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-7.5811111111111105,33.36416666666667,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3059,7 +3059,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3071,7 +3071,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3083,7 +3083,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.204166666666667,49.623333333333335,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.203888888888889,49.623333333333335,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3095,7 +3095,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.9099999999999997,43.300555555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3107,7 +3107,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.059722222222222,36.74472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.059444444444444,36.74472222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3131,7 +3131,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>11.077777777777778,49.498333333333335,0 2.1089,41.2974,0</coordinates>
+    <coordinates>11.0775,49.498333333333335,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3143,7 +3143,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>5.3741666666666665,51.45,0 2.1089,41.2974,0</coordinates>
+    <coordinates>5.373888888888889,51.45,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3155,7 +3155,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.221944444444444,48.689722222222215,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.221944444444444,48.68944444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3191,7 +3191,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.6897222222222223,55.03777777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.6897222222222223,55.0375,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3203,7 +3203,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3215,7 +3215,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>37.90611111111111,55.40833333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>37.905833333333334,55.408055555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3227,7 +3227,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-5.8983333333333325,37.4175,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3263,7 +3263,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3275,7 +3275,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.776944444444444,37.18833333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.7766666666666664,37.18805555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3311,7 +3311,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>18.268055555555556,42.56111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>18.268055555555556,42.56083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3323,7 +3323,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3359,7 +3359,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>11.077777777777778,49.498333333333335,0 2.1089,41.2974,0</coordinates>
+    <coordinates>11.0775,49.498333333333335,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3383,7 +3383,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3407,7 +3407,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3431,7 +3431,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.9099999999999997,43.300555555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3455,7 +3455,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.988055555555555,53.63,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.987777777777778,53.63,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3503,7 +3503,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3515,7 +3515,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-7.581388888888888,33.36416666666667,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-7.5811111111111105,33.36416666666667,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3539,7 +3539,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3551,7 +3551,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3563,7 +3563,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.715,44.828611111111115,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.7147222222222221,44.828611111111115,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3575,7 +3575,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3587,7 +3587,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3599,7 +3599,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.351666666666667,45.505,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.351388888888888,45.505,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3611,7 +3611,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>13.099444444444446,38.181666666666665,0 2.1089,41.2974,0</coordinates>
+    <coordinates>13.099444444444446,38.18138888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3635,7 +3635,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>16.569166666666668,48.11027777777778,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3671,7 +3671,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3683,7 +3683,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>14.290833333333333,40.884166666666665,0 2.1089,41.2974,0</coordinates>
+    <coordinates>14.290833333333333,40.88388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3695,7 +3695,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>5.214722222222222,43.436388888888885,0 2.1089,41.2974,0</coordinates>
+    <coordinates>5.214444444444444,43.43611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3719,7 +3719,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3731,7 +3731,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.108888888888888,46.23833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3743,7 +3743,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.108888888888888,46.23833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3755,7 +3755,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3767,7 +3767,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3779,7 +3779,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3815,7 +3815,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.819722222222222,43.426944444444445,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.819444444444444,43.426944444444445,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3827,7 +3827,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-4.851666666666667,41.70611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-4.851388888888889,41.70611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3839,7 +3839,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.221944444444444,48.689722222222215,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.221944444444444,48.68944444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3851,7 +3851,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3875,7 +3875,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.6605555555555556,53.865833333333335,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.6602777777777777,53.865833333333335,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3887,7 +3887,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-16.341388888888886,28.482499999999998,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-16.34111111111111,28.48222222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3947,7 +3947,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>23.692222222222224,46.788888888888884,0 2.1089,41.2974,0</coordinates>
+    <coordinates>23.692222222222224,46.78861111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3959,7 +3959,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>23.97083333333333,56.92333333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>23.970555555555553,56.92305555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -3971,7 +3971,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4043,7 +4043,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.6605555555555556,53.865833333333335,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.6602777777777777,53.865833333333335,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4103,7 +4103,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-16.341388888888886,28.482499999999998,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-16.34111111111111,28.48222222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4139,7 +4139,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4175,7 +4175,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4199,7 +4199,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.351666666666667,45.505,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.351388888888888,45.505,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4211,7 +4211,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.7902777777777776,43.35611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.7899999999999998,43.35611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4223,7 +4223,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.436944444444444,51.956944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.4366666666666665,51.956944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4235,7 +4235,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4259,7 +4259,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>16.569166666666668,48.11027777777778,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4283,7 +4283,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4295,7 +4295,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4307,7 +4307,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4331,7 +4331,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>3.2144444444444447,36.69361111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>3.2144444444444447,36.69333333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4355,7 +4355,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.108888888888888,46.23833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4451,7 +4451,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>16.569444444444443,48.11027777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>16.569166666666668,48.11027777777778,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4463,7 +4463,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4487,7 +4487,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.269444444444445,53.420833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4499,7 +4499,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>6.109166666666666,46.23833333333334,0 2.1089,41.2974,0</coordinates>
+    <coordinates>6.108888888888888,46.23833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4511,7 +4511,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-1.6897222222222223,55.03777777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-1.6897222222222223,55.0375,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4535,7 +4535,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-5.8983333333333325,37.4175,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4571,7 +4571,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4583,7 +4583,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-4.498888888888889,36.67472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-4.498611111111111,36.67444444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4607,7 +4607,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-4.594166666666666,55.50944444444445,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-4.5938888888888885,55.50944444444445,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4619,7 +4619,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4643,7 +4643,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4655,7 +4655,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-4.851666666666667,41.70611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-4.851388888888889,41.70611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4691,7 +4691,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4703,7 +4703,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4715,7 +4715,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>23.408055555555553,42.69472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>23.407777777777778,42.69444444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4787,7 +4787,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.2744444444444443,53.35388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4811,7 +4811,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.034722222222222,43.56333333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.034722222222222,43.56305555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4847,7 +4847,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4883,7 +4883,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-5.8983333333333325,37.4175,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4895,7 +4895,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.059722222222222,36.74472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.059444444444444,36.74472222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4907,7 +4907,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4919,7 +4919,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4931,7 +4931,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4955,7 +4955,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-8.677777777777777,41.23555555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-8.6775,41.23555555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4979,7 +4979,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -4991,7 +4991,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5015,7 +5015,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.269444444444445,53.420833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5027,7 +5027,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5063,7 +5063,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-8.677777777777777,41.23555555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-8.6775,41.23555555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5075,7 +5075,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.9102777777777775,43.30083333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.9099999999999997,43.300555555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5087,7 +5087,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>28.930833333333336,46.927499999999995,0 2.1089,41.2974,0</coordinates>
+    <coordinates>28.930833333333336,46.92722222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5123,7 +5123,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5183,7 +5183,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-8.415277777777778,42.89611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-8.415277777777778,42.895833333333336,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5195,7 +5195,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5207,7 +5207,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>26.084722222222222,44.571111111111115,0 2.1089,41.2974,0</coordinates>
+    <coordinates>26.084444444444443,44.571111111111115,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5255,7 +5255,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5267,7 +5267,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.269444444444445,53.420833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5279,7 +5279,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>11.202499999999999,43.80833333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>11.202222222222222,43.808055555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5291,7 +5291,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5303,7 +5303,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>19.261944444444445,47.439166666666665,0 2.1089,41.2974,0</coordinates>
+    <coordinates>19.261944444444445,47.43888888888888,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5339,7 +5339,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5363,7 +5363,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.5605555555555553,40.471944444444446,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.5602777777777774,40.471944444444446,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5387,7 +5387,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>18.268055555555556,42.56111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>18.268055555555556,42.56083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5399,7 +5399,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-4.498888888888889,36.67472222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-4.498611111111111,36.67444444444444,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5411,7 +5411,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5423,7 +5423,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5447,7 +5447,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5495,7 +5495,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>37.41277777777778,55.972500000000004,0 2.1089,41.2974,0</coordinates>
+    <coordinates>37.4125,55.972500000000004,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5531,7 +5531,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-6.269722222222222,53.42111111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-6.269444444444445,53.420833333333334,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5579,7 +5579,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.3680555555555555,51.874722222222225,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.36777777777777776,51.874722222222225,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5591,7 +5591,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-3.776944444444444,37.18833333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-3.7766666666666664,37.18805555555555,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5603,7 +5603,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>9.7,45.66861111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>9.699722222222222,45.66861111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5627,7 +5627,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5651,7 +5651,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5699,7 +5699,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-9.133888888888889,38.77388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-9.13361111111111,38.77388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5711,7 +5711,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.484444444444445,50.901111111111106,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.484444444444445,50.90083333333333,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5735,7 +5735,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.238888888888889,41.8,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.238888888888889,41.79972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5783,7 +5783,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>37.90611111111111,55.40833333333333,0 2.1089,41.2974,0</coordinates>
+    <coordinates>37.905833333333334,55.408055555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5795,7 +5795,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-5.89861111111111,37.41777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-5.8983333333333325,37.4175,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5807,7 +5807,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.738888888888889,39.55138888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.738888888888889,39.551111111111105,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5819,7 +5819,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>2.5475,49.00972222222222,0 2.1089,41.2974,0</coordinates>
+    <coordinates>2.547222222222222,49.00972222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5831,7 +5831,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-8.677777777777777,41.23555555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-8.6775,41.23555555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5843,7 +5843,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>4.764166666666667,52.30777777777777,0 2.1089,41.2974,0</coordinates>
+    <coordinates>4.764166666666667,52.3075,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5855,7 +5855,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>23.944444444444446,37.936388888888885,0 2.1089,41.2974,0</coordinates>
+    <coordinates>23.944444444444446,37.93611111111111,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5867,7 +5867,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>10.395277777777777,43.6825,0 2.1089,41.2974,0</coordinates>
+    <coordinates>10.395,43.68222222222222,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5879,7 +5879,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>10.887777777777778,45.39611111111111,0 2.1089,41.2974,0</coordinates>
+    <coordinates>10.887777777777778,45.395833333333336,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5915,7 +5915,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5927,7 +5927,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>12.351666666666667,45.505,0 2.1089,41.2974,0</coordinates>
+    <coordinates>12.351388888888888,45.505,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5963,7 +5963,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.18999999999999997,51.14805555555556,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.1897222222222222,51.14805555555556,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -5987,7 +5987,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.3680555555555555,51.874722222222225,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.36777777777777776,51.874722222222225,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -6023,7 +6023,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>7.214722222222222,43.665,0 2.1089,41.2974,0</coordinates>
+    <coordinates>7.214444444444444,43.664722222222224,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -6035,7 +6035,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-2.274722222222222,53.35388888888889,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-2.2744444444444443,53.35388888888889,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>
@@ -6047,7 +6047,7 @@
     </LineStyle>
   </Style>
   <LineString>
-    <coordinates>-0.002777777777777778,43.18527777777778,0 2.1089,41.2974,0</coordinates>
+    <coordinates>-0.002777777777777778,43.184999999999995,0 2.1089,41.2974,0</coordinates>
   </LineString>
 </Placemark>
 <Placemark>

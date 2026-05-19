@@ -3,6 +3,11 @@ from tkinter import messagebox
 from tkinter import filedialog
 from airport import *
 from aircraft import *
+from LEBL import *
+import time
+import os
+import subprocess
+import platform
 
 ToggleAutosave = False
 airports = []
@@ -86,6 +91,12 @@ def load_file():
     global airports
     airports = lista
 
+def load_file_structure():
+    lista = LoadAirportStructure("LEBL.txt")
+    messagebox.showinfo("Cargar", "Archivo cargado correctamente.")
+    global LEBL
+    LEBL = lista
+
 def export_file():
     global airports
     SaveAirportList(airports, "ResultsSchengen.txt")
@@ -107,10 +118,12 @@ def plot_airports():
 
 
 def plot_airlines():
+    global airports
     if aircrafts == []:
         messagebox.showinfo("Error al graficar aerolíneas", "Error: No existen vuelos cargados.")
     else:
         PlotAirlines(aircrafts)
+
 
 def plot_arrival_time():
     if aircrafts == []:
@@ -143,13 +156,60 @@ def map_airports():
     if airports == []:
         messagebox.showinfo("Error al exportar mapa", "Error: No existen aeropuertos cargados.")
     else:
-        MapAirports(airports)
-        messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
+        resposta=messagebox.askyesno("Launch", "Vols obrir Google Earth")
+        if resposta:
+            cami=os.path.abspath(r"C:\Users\user\PycharmProjects\Projecte-Info-1-Grup-10\mapairports.kml")
+            rutes_google_earth = [
+                r"C:\Program Files\Google\Google Earth Pro\client\googleearth.exe",
+                r"C:\Program Files (x86)\Google\Google Earth Pro\client\googleearth.exe"
+            ]
+
+            obert = False
+            for ruta_exe in rutes_google_earth:
+                if os.path.exists(ruta_exe):
+                    subprocess.Popen([ruta_exe, cami])
+                    print("S'està forçant l'obertura amb Google Earth Pro...")
+                    obert = True
+                    break
+
+            if not obert:
+                print("No s'ha trobat l'executable de Google Earth a les rutes habituals.")
+                print("Si us plau, verifica on tens instal·lat el fitxer 'googleearth.exe'.")
+        else:
+            time.sleep(1)
+            MapAirports(airports)
+            messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
+            time.sleep(2)
+
 def map_flights():
     global aircrafts
     if aircrafts == []:
         messagebox.showinfo("Error al exportar mapa", "Error: No existen vuelos cargados.")
     else:
+        resposta = messagebox.askyesno("Launch", "Vols obrir Google Earth")
+        if resposta:
+            cami = os.path.abspath(r"C:\Users\user\PycharmProjects\Projecte-Info-1-Grup-10\routes.kml")
+            rutes_google_earth = [
+                r"C:\Program Files\Google\Google Earth Pro\client\googleearth.exe",
+                r"C:\Program Files (x86)\Google\Google Earth Pro\client\googleearth.exe"
+            ]
+
+            obert = False
+            for ruta_exe in rutes_google_earth:
+                if os.path.exists(ruta_exe):
+                    subprocess.Popen([ruta_exe, cami])
+                    print("S'està forçant l'obertura amb Google Earth Pro...")
+                    obert = True
+                    break
+
+            if not obert:
+                print("No s'ha trobat l'executable de Google Earth a les rutes habituals.")
+                print("Si us plau, verifica on tens instal·lat el fitxer 'googleearth.exe'.")
+        else:
+            time.sleep(1)
+            MapAirports(airports)
+            messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
+            time.sleep(2)
         MapFlights(aircrafts,airports)
         messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
 
@@ -245,15 +305,22 @@ tk.Button(frame_Plots, text="Graficar Llegadas por Aerolínea", command=plot_air
 tk.Button(frame_Plots, text="Graficar Horas de Llegada", command=plot_arrival_time).pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 tk.Button(frame_Plots, text="Graficar Tipos de Vuelo", command=plot_flight_type).pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
-# FRAME FILE MANAGEMENT
+# FRAME FILE MANAGEMENT LOAD
 
-frame_FileManagement = tk.LabelFrame(frame_inferior, text="File Management", bg="darkgray")
-frame_FileManagement.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5, pady=5)
+frame_FileManagement_Load = tk.LabelFrame(frame_inferior, text="File Management Load", bg="darkgray")
+frame_FileManagement_Load.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5, pady=5)
 
-tk.Button(frame_FileManagement, text="Cargar Archivo Aeropuertos", command=load_file).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
-tk.Button(frame_FileManagement, text="Exportar Archivo Aeropuertos", command=export_file).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
-tk.Button(frame_FileManagement, text="Cargar Archivo Llegadas", command=load_arrivals).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
-tk.Button(frame_FileManagement, text="Exportar Archivo Llegadas", command=export_arrivals).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
+tk.Button(frame_FileManagement_Load, text="Cargar Archivo Aeropuertos", command=load_file).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
+tk.Button(frame_FileManagement_Load, text="Cargar Archivo Estructura", command=load_file_structure).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
+tk.Button(frame_FileManagement_Load, text="Cargar Archivo Llegadas", command=load_arrivals).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
+
+# FRAME FILE MANAGEMENT Export
+
+frame_FileManagement_Export = tk.LabelFrame(frame_inferior, text="File Management Export", bg="darkgray")
+frame_FileManagement_Export.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5, pady=5)
+
+tk.Button(frame_FileManagement_Export, text="Exportar Archivo Aeropuertos", command=export_file).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
+tk.Button(frame_FileManagement_Export, text="Exportar Archivo Llegadas", command=export_arrivals).pack(fill=tk.BOTH, expand=True, padx=5, pady=2)
 
 
 # HEADER CONFIG
@@ -265,18 +332,18 @@ lbl_logo.pack(side=tk.LEFT, padx=20, pady=10)
 
 
 btn_autosave = tk.Button(
-    frame_FileManagement,
+    frame_FileManagement_Export,
     text="Autosave: NO",
     bg="#f44336",
     fg="white",
-    font=("Calibri", 10, "bold"),
+    font=("Arial", 10, "bold"),
     command=toggle_autosave)
 btn_autosave.pack(pady=5)
 
 lbl_titulo = tk.Label(
     frame_header,
     text="AirportManager",
-    font=("Helvetica", 22, "bold"),
+    font=("Arial", 22, "bold"),
     bg="#2c3e50",
     fg="white"
 )
@@ -292,6 +359,7 @@ lbl_version = tk.Label(
 lbl_version.pack(side=tk.RIGHT, padx=20, pady=(30, 0))
 
 root.mainloop()
+
 
 
 # ==== NOS FALLA =====
