@@ -316,36 +316,9 @@ def MapAirports(lista):
     F.close()
 
 
-
-
-def SameLetterAirportMap(lista):
-    i = 0
-    listanueva = []
-    while i < len(lista):
-        airport = lista[i]
-        icao = airport.icao
-        firstletter = icao[0]
-        lastletter = icao[-1]
-
-        if firstletter == lastletter:
-            listanueva.append(airport)
-            print(airport)
-            print(airport.icao)
-            print(airport.latitude)
-            print(airport.longitude)
-        i = i+1
-    print("he acabado de comparar")
-    print(listanueva)
-    MapAirports(listanueva)
-    i = 0
-    while i < len(listanueva):
-        print(listanueva[i].icao)
-        i+=1
-
-
 if __name__ == "__main__":
     print("hola")
     lista = LoadAirports("ResultsSchengen.txt")
-    SameLetterAirportMap(lista)
+
 
 

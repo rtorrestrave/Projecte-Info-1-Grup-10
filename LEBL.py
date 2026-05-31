@@ -388,12 +388,6 @@ def SearchTerminal(bcn, name):
         i += 1
     return
 
-"""
-Tasklist
-========
--MODIFY UserInterface (Roger)
-"""
-
 
 if __name__ == "__main__":
 
@@ -420,3 +414,6 @@ if __name__ == "__main__":
 
     gates = GateOccupancy(LEBL)
     PlotGatesMap(gates)
+
+
+

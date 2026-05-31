@@ -1040,11 +1040,5 @@
 <coordinates>103.9888888888889,1.3591666666666669,0</coordinates>
 </Point>
 </Placemark>
-<Placemark>
-<name>ABCD</name>
-<Point>
-<coordinates>2.0,1.0,0</coordinates>
-</Point>
-</Placemark>
 </Document>
 </kml>

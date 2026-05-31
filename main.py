@@ -99,8 +99,11 @@ def load_file_structure():
 
 def export_file():
     global airports
-    SaveAirportList(airports, "ResultsSchengen.txt")
-    messagebox.showinfo("Exportar", "Archivo exportado correctamente.")
+    if airports == []:
+        messagebox.showinfo("Error", "No existen aeropuertos cargados.")
+    else:
+        SaveAirportList(airports, "ResultsSchengen.txt")
+        messagebox.showinfo("Exportar", "Archivo exportado correctamente.")
 
 ############################### GUI PLOTS (AIRPORTS / AIRLINES) ########################################################
 
@@ -147,8 +150,11 @@ def load_arrivals():
 
 def export_arrivals():
     global aircrafts
-    SaveFlights(aircrafts, "Arrivals2PROV.txt")
-    messagebox.showinfo("Exportar", "Archivo exportado correctamente.")
+    if aircrafts == []:
+        messagebox.showinfo("Error", "No existen aeronaves cargadas")
+    else:
+        SaveFlights(aircrafts, "Arrivals2PROV.txt")
+        messagebox.showinfo("Exportar", "Archivo exportado correctamente.")
 
 ############################### GUI MAPAIRPORTS ########################################################################
 def map_airports():
@@ -156,7 +162,7 @@ def map_airports():
     if airports == []:
         messagebox.showinfo("Error al exportar mapa", "Error: No existen aeropuertos cargados.")
     else:
-        resposta=messagebox.askyesno("Launch", "Vols obrir Google Earth")
+        resposta=messagebox.askyesno("Graficar Mapa de Aeropuertos", "¿Quieres abrir Google Earth?")
         if resposta:
             cami=os.path.abspath(r"C:\Users\user\PycharmProjects\Projecte-Info-1-Grup-10\mapairports.kml")
             rutes_google_earth = [
@@ -186,7 +192,7 @@ def map_flights():
     if aircrafts == []:
         messagebox.showinfo("Error al exportar mapa", "Error: No existen vuelos cargados.")
     else:
-        resposta = messagebox.askyesno("Launch", "Vols obrir Google Earth")
+        resposta=messagebox.askyesno("Graficar Mapa de vuelos", "¿Quieres abrir Google Earth?")
         if resposta:
             cami = os.path.abspath(r"C:\Users\user\PycharmProjects\Projecte-Info-1-Grup-10\routes.kml")
             rutes_google_earth = [
@@ -212,16 +218,6 @@ def map_flights():
             time.sleep(2)
         MapFlights(aircrafts,airports)
         messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
-
-def same_letter_airport_map():
-    global airports
-    if airports == []:
-        messagebox.showinfo("Error al exportar mapa", "Error: No existen aeropuertos cargados.")
-    else:
-        SameLetterAirportMap(airports)
-        messagebox.showinfo("Exportar mapa", "Archivo KML exportado correctamente.")
-
-
 
 ############################### GUI BUSCAR AEROPUERTO ##################################################################
 
@@ -351,7 +347,7 @@ lbl_titulo.pack(side=tk.LEFT, padx=10)
 
 lbl_version = tk.Label(
     frame_header,
-    text="v3.0",
+    text="v4.0",
     font=("Arial", 10),
     bg="#2c3e50",
     fg="#bdc3c7"
@@ -362,7 +358,21 @@ root.mainloop()
 
 
 
-# ==== NOS FALLA =====
-# PLOT TIPOS DE VUELO
-# KML VUELOS LLEGADAS
-# TEST SECTION of aircraft.py de totes les funcions
+""""
+- Passar TOT al github (Modificar per llistes buides al carregar)
+
+FUNCIONS A AIRCRAFT.py
+> def LoadDepartures(filename)
+> def MergeMovements(arrivals, departures)
+> def NightAircraft (aircrafts)
+FUNCIONS A LEBL.py
+> def AssignNightGates (bcn, aircrafts)
+> def FreeGate(bcn, id)
+> def AssignGatesAtTime (bcn, aircrafts, time)
+> def PlotDayOccupancy (bcn, aircrafts)
+
+- No popups (roger)
+- Comentar TOT el codi
+- Funcions Extra
+- Botons i Interficie Grafica xula
+"""
