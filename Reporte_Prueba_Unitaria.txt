@@ -1,0 +1,116 @@
+/////////////////////////////////////////////////////////////////
+--- ACARS LONG-RANGE MSG -- EXECUTIVE SUMMARY OPERATIONS ---
+/////////////////////////////////////////////////////////////////
+ARCHIVE ID     : FIN-OPS/LEBL
+AIRPORT STN    : LEBL
+-----------------------------------------------------------------
+[1] OPERATIONAL TRAFFIC DATA DATASETS
+ - TOTAL MANAGED AIRFRAMES : 613 FLTS
+ - BASE NIGHT OVERNIGHTS   : 108 ACFT
+ - TOTAL GATE INVENTORY    : 161 SLOTS
+-----------------------------------------------------------------
+[2] INFRASTRUCTURE STRESS & CRITICAL PEAK
+ - DETECTED PEAK HOUR      : 22:00 UTC
+ - MAX SIMULTANEOUS AP_OCC : 86/161 GATES ASSIGNED
+ - PEAK CAPACITY LOAD      : 53.42%
+-----------------------------------------------------------------
+[3] FINANCIAL AUDIT & REVENUE ANALYSIS
+ - TOTAL DIURNAL REVENUE   : 637,000.00 EUR
+ - MAJOR CLIENT LEAD       : VLG (250,400.00 EUR)
+-----------------------------------------------------------------
+[4] AIRLINE BILLING BREAKDOWN (RANKED REVENUE)
+ * VLG        -> 250,400.00 EUR
+ * RYR        -> 72,400.00 EUR
+ * EZY        -> 31,600.00 EUR
+ * IBK        -> 22,800.00 EUR
+ * DLH        -> 16,600.00 EUR
+ * IBE        -> 15,400.00 EUR
+ * BAW        -> 12,800.00 EUR
+ * AEA        -> 12,600.00 EUR
+ * EXU        -> 8,800.00 EUR
+ * TAP        -> 8,200.00 EUR
+ * GWI        -> 8,000.00 EUR
+ * SWR        -> 7,200.00 EUR
+ * AFR        -> 6,200.00 EUR
+ * THY        -> 6,200.00 EUR
+ * KLM        -> 6,200.00 EUR
+ * WZZ        -> 6,000.00 EUR
+ * AZA        -> 5,200.00 EUR
+ * TRA        -> 5,000.00 EUR
+ * EZS        -> 5,000.00 EUR
+ * SWT        -> 4,400.00 EUR
+ * AFL        -> 4,200.00 EUR
+ * ZZZ        -> 4,200.00 EUR
+ * AAL        -> 4,000.00 EUR
+ * MON        -> 4,000.00 EUR
+ * NAX        -> 4,000.00 EUR
+ * FIN        -> 3,200.00 EUR
+ * QTR        -> 3,200.00 EUR
+ * ANE        -> 3,200.00 EUR
+ * ICC        -> 3,200.00 EUR
+ * BEL        -> 3,000.00 EUR
+ * SAS        -> 3,000.00 EUR
+ * LAV        -> 2,600.00 EUR
+ * NJE        -> 2,600.00 EUR
+ * AUL        -> 2,600.00 EUR
+ * FHA        -> 2,200.00 EUR
+ * HBV        -> 2,200.00 EUR
+ * TAM        -> 2,200.00 EUR
+ * ORO        -> 2,200.00 EUR
+ * BCS        -> 2,000.00 EUR
+ * UPS        -> 2,000.00 EUR
+ * JAF        -> 2,000.00 EUR
+ * BER        -> 2,000.00 EUR
+ * DAL        -> 2,000.00 EUR
+ * NLY        -> 2,000.00 EUR
+ * EIN        -> 2,000.00 EUR
+ * ROU        -> 2,000.00 EUR
+ * ROT        -> 2,000.00 EUR
+ * AEE        -> 2,000.00 EUR
+ * EXS        -> 2,000.00 EUR
+ * RAM        -> 2,000.00 EUR
+ * TSC        -> 2,000.00 EUR
+ * AUI        -> 2,000.00 EUR
+ * UAE        -> 2,000.00 EUR
+ * PGT        -> 2,000.00 EUR
+ * MAC        -> 2,000.00 EUR
+ * EWG        -> 2,000.00 EUR
+ * UAL        -> 1,600.00 EUR
+ * HBF        -> 1,600.00 EUR
+ * EFD        -> 1,600.00 EUR
+ * VVV        -> 1,600.00 EUR
+ * TAY        -> 1,000.00 EUR
+ * ABG        -> 1,000.00 EUR
+ * AUA        -> 1,000.00 EUR
+ * SIA        -> 1,000.00 EUR
+ * CCA        -> 1,000.00 EUR
+ * BMS        -> 1,000.00 EUR
+ * LOT        -> 1,000.00 EUR
+ * SDM        -> 1,000.00 EUR
+ * TAR        -> 1,000.00 EUR
+ * DCA        -> 1,000.00 EUR
+ * CSA        -> 1,000.00 EUR
+ * LGL        -> 1,000.00 EUR
+ * MSR        -> 1,000.00 EUR
+ * AVA        -> 1,000.00 EUR
+ * ROJ        -> 1,000.00 EUR
+ * ARG        -> 1,000.00 EUR
+ * KTK        -> 1,000.00 EUR
+ * DIE        -> 1,000.00 EUR
+ * HSY        -> 1,000.00 EUR
+ * LWG        -> 1,000.00 EUR
+ * TVF        -> 1,000.00 EUR
+ * GES        -> 1,000.00 EUR
+ * WOW        -> 1,000.00 EUR
+ * FDX        -> 600.00 EUR
+ * FAF        -> 600.00 EUR
+ * ELY        -> 600.00 EUR
+ * DAH        -> 600.00 EUR
+ * MLD        -> 600.00 EUR
+ * TKJ        -> 600.00 EUR
+ * AHO        -> 600.00 EUR
+ * PRW        -> 600.00 EUR
+-----------------------------------------------------------------
+SYSTEM CODE    : AUDIT EXPORT SUCCESSFUL // REVENUE VERIFIED
+END OF EXECUTIVE DATA LINK MSG // TERMINATE PRINT
+/////////////////////////////////////////////////////////////////

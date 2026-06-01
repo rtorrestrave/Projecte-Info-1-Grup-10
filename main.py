@@ -14,11 +14,11 @@
 
 import tkinter as tk
 from tkinter import messagebox, ttk
-
-# Importem el contingut modularitzat del projecte
+from funcionesv4 import *
 from airport import *
 from aircraft import *
 from LEBL import *
+from datetime import datetime
 
 # Variables globals de l'aplicació
 airports = []
@@ -37,14 +37,16 @@ TEXTOS = {
         "btn_dark_l": "MODE CLAR", "btn_dark_d": "MODE FOSC", "btn_idioma": "IDIOMA: CA",
         "management": " GESTIÓ D'AEROPORTS ", "maps": " MAPES KML ", "analytics": " ANÀLISI DE DADES ",
         "import": " IMPORTAR DADES ", "export": " EXPORTACIÓ I AJUSTOS ",
+        "info_aero": " INFORMACIÓ AERONÀUTICA EN TEMPS REAL ",
         "btn_add": "Afegir Aeroport", "btn_remove": "Treure Aeroport", "btn_info": "Informació Aeroport",
         "btn_map_ap": "Mapa Aeroports", "btn_map_fl": "Mapa Vols", "btn_plot_sch": "Graficar Schengen",
         "btn_plot_air": "Vols per Aerolínia", "btn_plot_arr": "Hores d'Arribada", "btn_plot_type": "Tipus de Vol",
-        "btn_plot_gates": "Mapa Portes LEBL", "btn_plot_evo": "Evolució Portes 24h", "btn_load_all": "CARREGAR TOT",
+        "btn_plot_gates": "Mapa Estat de Portes", "btn_plot_evo": "Evolució Portes 24h", "btn_load_all": "CARREGAR TOT",
         "btn_load_ap": "Carregar Aeroports", "btn_load_st": "Carregar Estructura LEBL",
         "btn_load_arr": "Carregar Vols",
-        "btn_exp_ap": "Exportar Aeroports", "btn_exp_arr": "Exportar Vols", "auto_on": "Autosave: ACTIVAT",
-        "auto_off": "Autosave: DESACTIVAT",
+        "btn_exp_ap": "Exportar Aeroports", "btn_exp_arr": "Exportar Vols",
+        "btn_acars": "Despatxo ACARS", "btn_meteo": "Dades METEO", "btn_aodb": "Informe AODB",
+        "auto_on": "Autosave: ACTIVAT", "auto_off": "Autosave: DESACTIVAT",
         "msg_err_ap": "Error: No hi ha aeroports carregats.", "msg_err_fl": "Error: No hi ha vols carregats.",
         "msg_err_both": "Es necessiten vols i aeroports carregats per generar les rutes.",
         "msg_load_ap_ok": "S'han carregat {} aeroports correctament.",
@@ -69,7 +71,8 @@ TEXTOS = {
         "pop_all": "Veure TOTES (Ordenades de + a -)",
         "pop_high": "Només alta freqüència (>= 5 vols)",
         "pop_group": "Agrupar minoritàries (< 3) a 'ALTRES'",
-        "pop_error": "No hi ha cap companyia amb aquest volum de vols."
+        "pop_error": "No hi ha cap companyia amb aquest volum de vols.",
+        "btn_plot_night": "Mapa Portes en Nocturnitat", "lbl_nocturnitat": "Nocturnitat"
     },
 
     "es": {
@@ -77,14 +80,16 @@ TEXTOS = {
         "btn_dark_l": "MODE CLARO", "btn_dark_d": "MODE OSCURO", "btn_idioma": "IDIOMA: ES",
         "management": " GESTIÓN DE AEROPUERTOS ", "maps": " MAPAS KML ", "analytics": " DATA ANALYTICS ",
         "import": " IMPORT DATA ", "export": " EXPORT & SETTINGS ",
+        "info_aero": " INFORMACIÓN AERONÁUTICA EN TIEMPO REAL",
         "btn_add": "Añadir Aeropuerto", "btn_remove": "Quitar Aeropuerto", "btn_info": "Información Aeropuerto",
         "btn_map_ap": "Mapa Aeropuertos", "btn_map_fl": "Mapa Vuelos", "btn_plot_sch": "Graficar Schengen",
         "btn_plot_air": "Vuelos por Aerolínea", "btn_plot_arr": "Horas de Llegada", "btn_plot_type": "Tipos de Vuelo",
-        "btn_plot_gates": "Mapa Puertas LEBL", "btn_plot_evo": "Evolución Puertas 24h", "btn_load_all": "CARGAR TODO",
+        "btn_plot_gates": "Mapa Estado de Puertas", "btn_plot_evo": "Evolución Puertas 24h", "btn_load_all": "CARGAR TODO",
         "btn_load_ap": "Cargar Aeropuertos", "btn_load_st": "Cargar Estructura LEBL",
         "btn_load_arr": "Cargar Vuelos (Fusión)",
-        "btn_exp_ap": "Exportar Aeropuertos", "btn_exp_arr": "Exportar Vuelos", "auto_on": "Autosave: ACTIVADO",
-        "auto_off": "Autosave: DESACTIVADO",
+        "btn_exp_ap": "Exportar Aeropuertos", "btn_exp_arr": "Exportar Vuelos",
+        "btn_acars": "Despacho ACARS", "btn_meteo": "Datos METEO", "btn_aodb": "Informe AODB",
+        "auto_on": "Autosave: ACTIVADO", "auto_off": "Autosave: DESACTIVADO",
         "msg_err_ap": "Error: No existen aeropuertos cargados.", "msg_err_fl": "Error: No existen vuelos cargados.",
         "msg_err_both": "Se necesitan vuelos y aeropuertos cargados para generar las rutas.",
         "msg_load_ap_ok": "Se han cargado {} aeropuertos correctamente.",
@@ -109,20 +114,24 @@ TEXTOS = {
         "pop_all": "Ver TODAS (Ordenadas de + a -)",
         "pop_high": "Solo alta frecuencia (>= 5 vuelos)",
         "pop_group": "Agrupar minoritarias (< 3) en 'ALTRES'",
-        "pop_error": "No hay ninguna compañía con ese volumen de vuelos."
+        "pop_error": "No hay ninguna compañía con ese volumen de vuelos.",
+        "btn_plot_night": "Mapa Puertas en Nocturnidad", "lbl_nocturnitat": "Nocturnidad"
     },
+
     "en": {
         "titulo": "AIRPORT MANAGER", "subtitulo": "OPERATIONS CENTER v4.0",
         "btn_dark_l": "LIGHT MODE", "btn_dark_d": "DARK MODE", "btn_idioma": "LANGUAGE: EN",
         "management": " AIRPORT MANAGEMENT ", "maps": " KML MAPS ", "analytics": " DATA ANALYTICS ",
         "import": " IMPORT DATA ", "export": " EXPORT & SETTINGS ",
+        "info_aero": " REAL-TIME AERONAUTICAL INFO ",
         "btn_add": "Add Airport", "btn_remove": "Remove Airport", "btn_info": "Airport Info",
         "btn_map_ap": "Airport Map", "btn_map_fl": "Flights Map", "btn_plot_sch": "Plot Schengen",
         "btn_plot_air": "Flights by Airline", "btn_plot_arr": "Arrival Hours", "btn_plot_type": "Flight Types",
-        "btn_plot_gates": "LEBL Gate Map", "btn_plot_evo": "Gate Evolution 24h", "btn_load_all": "LOAD ALL DATA",
+        "btn_plot_gates": "Gate Map", "btn_plot_evo": "Gate Evolution 24h", "btn_load_all": "LOAD ALL DATA",
         "btn_load_ap": "Load Airports", "btn_load_st": "Load LEBL Structure", "btn_load_arr": "Load Flights (Merge)",
-        "btn_exp_ap": "Export Airports", "btn_exp_arr": "Export Flights", "auto_on": "Autosave: ENABLED",
-        "auto_off": "Autosave: DISABLED",
+        "btn_exp_ap": "Export Airports", "btn_exp_arr": "Export Flights",
+        "btn_acars": "ACARS Dispatch", "btn_meteo": "METEO Data", "btn_aodb": "AODB Report",
+        "auto_on": "Autosave: ENABLED", "auto_off": "Autosave: DISABLED",
         "msg_err_ap": "Error: No airports loaded.", "msg_err_fl": "Error: No flights loaded.",
         "msg_err_both": "Flights and airports must be loaded to generate routes.",
         "msg_load_ap_ok": "{} airports loaded successfully.", "msg_load_ap_er": "Could not load airports file.",
@@ -146,7 +155,8 @@ TEXTOS = {
         "pop_all": "Show ALL (Sorted from + to -)",
         "pop_high": "High frequency only (>= 5 flights)",
         "pop_group": "Group minor airlines (< 3) into 'ALTRES'",
-        "pop_error": "There are no companies with that amount of flights."
+        "pop_error": "There are no companies with that amount of flights.",
+        "btn_plot_night": "Night Gate Map", "lbl_nocturnitat": "Night Stay"
     }
 }
 # =======================================================================================================================
@@ -161,7 +171,6 @@ def load_file():
     else:
         messagebox.showerror(t["msg_er_title"], t["msg_load_ap_er"])
 
-
 def load_file_structure():
     global bcn_airport
     t = TEXTOS[idioma_actual]
@@ -170,7 +179,6 @@ def load_file_structure():
         messagebox.showinfo(t["msg_ok_title"], t["msg_load_st_ok"])
     else:
         messagebox.showerror(t["msg_er_title"], t["msg_load_st_er"])
-
 
 def load_arrivals():
     global aircrafts
@@ -184,7 +192,6 @@ def load_arrivals():
         messagebox.showinfo(t["msg_ok_title"], t["msg_load_arr_ok"].format(len(aircrafts)))
     else:
         messagebox.showerror(t["msg_er_title"], t["msg_load_arr_er"])
-
 
 def load_all_data():
     global airports, bcn_airport, aircrafts
@@ -200,7 +207,6 @@ def load_all_data():
     else:
         messagebox.showwarning(t["msg_wa_title"], t["msg_load_all_wa"])
 
-
 def export_file():
     global airports
     t = TEXTOS[idioma_actual]
@@ -209,7 +215,6 @@ def export_file():
     else:
         SaveAirportList(airports, "ResultsAirports.txt")
         messagebox.showinfo(t["msg_ok_title"], t["msg_exp_ap_ok"])
-
 
 def export_arrivals():
     global aircrafts
@@ -220,7 +225,6 @@ def export_arrivals():
         SaveFlights(aircrafts, "ResultsFlights.txt")
         messagebox.showinfo(t["msg_ok_title"], t["msg_exp_fl_ok"])
 
-
 def toggle_autosave():
     global autosave
     t = TEXTOS[idioma_actual]
@@ -229,7 +233,6 @@ def toggle_autosave():
         btn_autosave.config(text=t["auto_on"], bg="#2e7d32")
     else:
         btn_autosave.config(text=t["auto_off"], bg="#4a5568" if not dark_mode else "#2d3748")
-
 
 def add_airport():
     global airports
@@ -257,7 +260,6 @@ def add_airport():
     e_lon.pack()
     tk.Button(win, text="Afegir", command=guardar, bg="#4a5568", fg="white").pack(pady=10)
 
-
 def remove_airport():
     global airports
     win = tk.Toplevel(root);
@@ -273,7 +275,6 @@ def remove_airport():
         win.destroy()
 
     tk.Button(win, text="Eliminar", command=esborrar, bg="#c62828", fg="white").pack(pady=10)
-
 
 def buscar_airport():
     global airports
@@ -294,7 +295,6 @@ def buscar_airport():
 
     tk.Button(win, text="Cercar", command=cercar).pack(pady=10)
 
-
 def map_airports():
     global airports
     t = TEXTOS[idioma_actual]
@@ -303,7 +303,6 @@ def map_airports():
     else:
         MapAirports(airports)
         messagebox.showinfo("KML Generated", "Mapa de aeropuertos guardado como 'mapairports.kml'.")
-
 
 def map_flights():
     global aircrafts, airports
@@ -314,8 +313,6 @@ def map_flights():
         MapFlights(aircrafts, airports)
         messagebox.showinfo("KML Generated", "Mapa de rutes guardat com 'routes.kml'.")
 
-
-# --- FUNCIONES INTERMEDIAS DE GRAPHICS / PLOTS ---
 def plot_airports():
     global airports
     t = TEXTOS[idioma_actual]
@@ -323,7 +320,6 @@ def plot_airports():
         messagebox.showinfo("Error al graficar", t["msg_err_ap"])
     else:
         afegir_pestanya(t["tab_schengen"], PlotAirports, airports)
-
 
 def plot_airlines(dades=None, frame=None):
     global aircrafts, idioma_actual, dark_mode
@@ -456,7 +452,6 @@ def plot_airlines(dades=None, frame=None):
     tk.Button(win_pop, text=t["pop_group"], bg="#dd6b20", fg="white", font=("Segoe UI", 9, "bold"), bd=0, cursor="hand2",
               pady=6, command=lambda: aplicar_i_obrir("agrupar")).pack(fill=tk.X, padx=40, pady=6)
 
-
 def plot_arrival_time():
     global aircrafts
     t = TEXTOS[idioma_actual]
@@ -465,7 +460,6 @@ def plot_arrival_time():
     else:
         afegir_pestanya(t["tab_hours"], PlotArrivals, aircrafts)
 
-
 def plot_flight_type():
     global aircrafts
     t = TEXTOS[idioma_actual]
@@ -473,7 +467,6 @@ def plot_flight_type():
         messagebox.showinfo("Error al graficar", t["msg_err_fl"])
     else:
         afegir_pestanya(t["tab_types"], PlotFlightsType, aircrafts)
-
 
 def plot_gates_map():
     global bcn_airport, aircrafts
@@ -503,12 +496,14 @@ def toggle_dark_mode():
 
     if dark_mode:
         bg_main, bg_card, fg_text, bg_btn, fg_btn = "#12141c", "#1a1d26", "#e2e8f0", "#2d3748", "#f8fafc"
+        color_rellotge = "#00FF00"  # Verde fosforito radionavegación para modo oscuro
         btn_toggle_text = t["btn_dark_l"]
         style.configure('TNotebook', background=bg_main)
         style.configure('TNotebook.Tab', background='#2d3748', foreground='#a0aec0', bordercolor='#1a1d26')
         style.map('TNotebook.Tab', background=[('selected', '#1a1d26')], foreground=[('selected', '#ffffff')])
     else:
         bg_main, bg_card, fg_text, bg_btn, fg_btn = "#f1f3f5", "#ffffff", "#2d3748", "#4a5568", "#f8fafc"
+        color_rellotge = "#1E3A8A"  # Azul marino corporativo para modo claro
         btn_toggle_text = t["btn_dark_d"]
         style.configure('TNotebook', background=bg_main)
         style.configure('TNotebook.Tab', background='#e9ecef', foreground='#495057', bordercolor='#dee2e6')
@@ -519,13 +514,32 @@ def toggle_dark_mode():
     frame_inferior.configure(bg=bg_main)
     btn_dark_toggle.config(text=btn_toggle_text)
 
-    seccions = [frame_AirportManagement, frame_Maps, frame_Plots, frame_FileManagement_Load,
-                frame_FileManagement_Export]
+    # =========================================================================
+    # MODIFICACIÓN: Inyectamos tu nuevo frame en la lista automatizada
+    # =========================================================================
+    seccions = [
+        frame_AirportManagement,
+        frame_Maps,
+        frame_Plots,
+        frame_FileManagement_Load,
+        frame_FileManagement_Export,
+        frame_InfoAeronautica  # <--- ¡Añadido aquí!
+    ]
+
     for seccio in seccions:
         seccio.configure(bg=bg_card, fg=fg_text)
         for widget in seccio.winfo_children():
             if isinstance(widget, tk.Button) and widget != btn_autosave:
                 widget.configure(bg=bg_btn, fg=fg_btn)
+
+    # =========================================================================
+    # MODIFICACIÓN: Forzamos al reloj a cambiar su color de fondo y de texto
+    # =========================================================================
+    try:
+        lbl_rellotge_live.configure(bg=bg_card, fg=color_rellotge)
+    except Exception:
+        pass
+
     refrescar_grafico_actual()
 
     try:
@@ -534,7 +548,6 @@ def toggle_dark_mode():
             LEBL._actualitzar_mapa_global_fn()
     except Exception as e:
         print("El mapa encara no s'ha creat o ha donat error:", e)
-
 
 def refrescar_grafico_actual():
     try:
@@ -586,7 +599,6 @@ def refrescar_grafico_actual():
     except Exception as e:
         print("Error refreshing live viewport canvas:", e)
 
-
 # =======================================================================================================================
 #                                    FUNCIÓN DE CAMBIO DE IDIOMA (MÈTODE DE COMMUTACIÓ)
 # =======================================================================================================================
@@ -632,10 +644,16 @@ def toggle_language():
                 widget.config(text=t["btn_plot_arr"])
             elif "Tip" in txt or "Type" in txt:
                 widget.config(text=t["btn_plot_type"])
+
+            elif "Night" in txt or "Nocturn" in txt or "Pernoct" in txt or "OVERNIGHTS" in txt:
+                widget.config(text=t["btn_plot_night"])
+
             elif "Puert" in txt or "Porte" in txt or "Gate" in txt:
                 widget.config(text=t["btn_plot_gates"])
+
             elif "Evol" in txt or "24h" in txt:
                 widget.config(text=t["btn_plot_evo"])
+
     for widget in frame_FileManagement_Load.winfo_children():
         if isinstance(widget, tk.Button):
             txt = widget.cget("text")
@@ -655,10 +673,105 @@ def toggle_language():
                 "text") or "Vols" in widget.cget("text") or "Vuel" in widget.cget("text"):
                 widget.config(text=t["btn_exp_arr"])
 
+
     btn_autosave.config(text=t["auto_on"] if autosave else t["auto_off"])
+    try:
+        for i in range(notebook.index("end")):
+            txt_pestanya = notebook.tab(i, "text")
+
+            if "Map" in txt_pestanya or "Nocturn" in txt_pestanya or "Pernoct" in txt_pestanya:
+                notebook.tab(i, text=t.get("btn_plot_night", "Night Gates Map"))
+    except Exception:
+        pass
     refrescar_grafico_actual()
+# ===========================================================# INYECCIÓN ADAPTADA PARA TU NUEVA SECCIÓN AERONÁUTICA
+
+    frame_InfoAeronautica.config(text=t["info_aero"])
+    for widget in frame_InfoAeronautica.winfo_children():
+        if isinstance(widget, tk.Button):
+            txt = widget.cget("text")
+
+            if "ACARS" in txt:
+                widget.config(text=t["btn_acars"])
+            elif "METEO" in txt or "Dades" in txt or "Datos" in txt:
+                widget.config(text=t["btn_meteo"])
+            elif "AODB" in txt or "Informe" in txt or "Report" in txt:
+                widget.config(text=t["btn_aodb"])
+
+# =======================================================================================================================
+#                                    RELLOTGE EN TEMPS REAL PER ACARS I AODB
+# =======================================================================================================================
 
 
+# Funció auxiliar que aconsegueix l'hora formatejada al vol quan es prem el botó
+def obtenir_hora_actual_sim():
+    # Retorna l'hora del sistema en format "HH:00" per no trencar la teva lògica de filtres
+    return f"{datetime.now().hour}:00"
+# =======================================================================================================================
+#                                    DESPACHO ACARS EN TIEMPO REAL
+# =======================================================================================================================
+
+def executar_despatxo_acars_en_temps_real():
+    # Conseguimos el diccionario del idioma que esté activo JUSTO AHORA
+    t_actual = TEXTOS[idioma_actual]
+
+    if bcn_airport is None:
+        messagebox.showwarning(t_actual["msg_wa_title"], t_actual["msg_err_ap"])
+        return
+
+    hora_del_rellotge = obtenir_hora_actual_sim()
+    try:
+        AssignGatesAtTime(bcn_airport, aircrafts, hora_del_rellotge)
+    except Exception:
+        pass
+
+    # Le pasamos t_actual a la función a través de la lambda
+    afegir_pestanya(
+        "ACARS Datalink",
+        lambda d, f: GenerateACARSMsg(bcn_airport, aircrafts, hora_del_rellotge, frame=f, t=t_actual),
+        None
+    )
+
+def executar_meteo_segura():
+    t_actual = TEXTOS[idioma_actual]
+
+    # El primer escudo por si acaso
+    if bcn_airport is None:
+        messagebox.showwarning(t_actual["msg_wa_title"], t_actual["msg_err_ap"])
+        return
+
+    afegir_pestanya(
+        "METEO Live",
+        lambda d, f: FetchAirportLiveStatus(bcn_airport, frame=f, t=t_actual),
+        None
+    )
+
+def executar_aodb_segura():
+    t_actual = TEXTOS[idioma_actual]
+
+    if bcn_airport is None or not aircrafts:
+        messagebox.showwarning(t_actual["msg_wa_title"], t_actual["msg_err_fl"])
+        return
+
+    nom_fitxer = f"Reporte_Estadisticas_{bcn_airport.code}.txt"
+
+    afxer = afegir_pestanya("AODB Audit",lambda d, f: ExportExecutiveReport(bcn_airport, aircrafts, nom_fitxer, frame=f, t=t_actual),None)
+
+# =======================================================================================================================
+#                                    NOCTURNITATS A BARCELONA
+# =======================================================================================================================
+def executar_mapa_nocturn_gates():
+    t_actual = TEXTOS[idioma_actual]
+    if bcn_airport is None:
+        messagebox.showwarning(t_actual["msg_wa_title"], t_actual["msg_err_ap"])
+        return
+
+    # Inyección directa a la nueva función sin slider y con textos fijos de Nocturnidad
+    afegir_pestanya(
+        "Night Gates Map",
+        lambda d, f: PlotNightGatesMap(bcn_airport, aircrafts, frame_central=f),
+        None
+    )
 # =======================================================================================================================
 #                                    CONFIGURACIÓN DE L'ESTIL I FINESTRA PRINCIPAL
 # =======================================================================================================================
@@ -675,16 +788,13 @@ style.configure('TNotebook.Tab', background='#e9ecef', foreground='#495057', pad
                 font=('Segoe UI', 9, 'bold'), borderwidth=1, bordercolor='#dee2e6')
 style.map('TNotebook.Tab', background=[('selected', '#ffffff')], foreground=[('selected', '#1a1f2c')])
 
-
 def on_enter(e):
     if e.widget['state'] != 'disabled' and e.widget['bg'] not in ["#2e7d32", "#c62828"]: e.widget[
         'bg'] = '#1a202c' if not dark_mode else '#4a5568'
 
-
 def on_leave(e):
     if e.widget['state'] != 'disabled' and e.widget['bg'] not in ["#2e7d32", "#c62828"]: e.widget[
         'bg'] = '#4a5568' if not dark_mode else '#2d3748'
-
 
 def crear_boto_modern(parent, text, command):
     btn = tk.Button(parent, text=text, command=command, font=("Segoe UI", 9, "bold"), bg="#4a5568", fg="#f8fafc", bd=0,
@@ -692,7 +802,6 @@ def crear_boto_modern(parent, text, command):
     btn.bind("<Enter>", on_enter);
     btn.bind("<Leave>", on_leave)
     return btn
-
 
 # Layout Estructural
 frame_header = tk.Frame(root, bg="#1a1f2c", height=60);
@@ -704,7 +813,6 @@ notebook = ttk.Notebook(frame_central, style='TNotebook');
 notebook.pack(fill=tk.BOTH, expand=True)
 frame_inferior = tk.Frame(root, bg="#f1f3f5");
 frame_inferior.pack(side=tk.BOTTOM, fill=tk.X, padx=15, pady=15)
-
 
 def afegir_pestanya(titol_pestanya, funcio_grafic, dades):
     global frame_grafic_actiu
@@ -740,7 +848,6 @@ def afegir_pestanya(titol_pestanya, funcio_grafic, dades):
     notebook.select(frame_pestanya)
     funcio_grafic(dades, frame_contingut_grafic)
 
-
 # Instanciació de panells de la graella de control inferior
 estil_seccio = {"bg": "#ffffff", "fg": "#2d3748", "font": ("Segoe UI", 9, "bold"), "bd": 1, "relief": "solid",
                 "padx": 10, "pady": 10}
@@ -764,6 +871,14 @@ crear_boto_modern(frame_Plots, t_init["btn_plot_air"], plot_airlines).pack(fill=
 crear_boto_modern(frame_Plots, t_init["btn_plot_arr"], plot_arrival_time).pack(fill=tk.X, pady=2)
 crear_boto_modern(frame_Plots, t_init["btn_plot_type"], plot_flight_type).pack(fill=tk.X, pady=2)
 crear_boto_modern(frame_Plots, t_init["btn_plot_gates"], plot_gates_map).pack(fill=tk.X, pady=2)
+crear_boto_modern(frame_Plots, t_init["btn_plot_night"], executar_mapa_nocturn_gates).pack(fill=tk.X, pady=3)
+
+frame_InfoAeronautica = tk.LabelFrame(frame_inferior, text=t_init["info_aero"], **estil_seccio)
+frame_InfoAeronautica.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=4)
+
+crear_boto_modern(frame_InfoAeronautica, t_init["btn_acars"], executar_despatxo_acars_en_temps_real).pack(fill=tk.X, pady=3)
+crear_boto_modern(frame_InfoAeronautica, t_init["btn_meteo"], executar_meteo_segura).pack(fill=tk.X, pady=3)
+crear_boto_modern(frame_InfoAeronautica, t_init["btn_aodb"], executar_aodb_segura).pack(fill=tk.X, pady=3)
 
 frame_FileManagement_Load = tk.LabelFrame(frame_inferior, text=t_init["import"], **estil_seccio);
 frame_FileManagement_Load.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=4)
@@ -782,7 +897,7 @@ btn_autosave = tk.Button(frame_FileManagement_Export, text=t_init["auto_off"], b
 btn_autosave.pack(fill=tk.X, pady=6)
 
 # Elements del banner superior
-img_logo = tk.PhotoImage(file="logo.png")
+img_logo = tk.PhotoImage(file="logowhite.png")
 img_logo = img_logo.subsample(13, 13)
 lbl_logo = tk.Label(frame_header, image=img_logo, bg="#1a1f2c")
 lbl_logo.pack(side=tk.LEFT, padx=20, pady=10)
@@ -793,8 +908,6 @@ lbl_version = tk.Label(frame_header, text=t_init["subtitulo"], font=("Segoe UI",
                        fg="#718096");
 lbl_version.pack(side=tk.LEFT, padx=10, pady=22)
 
-
-
 btn_lang_toggle = tk.Button(frame_header, text=t_init["btn_idioma"], font=("Segoe UI", 9, "bold"), bg="#2d3748",
                             fg="white", bd=0, relief="flat", cursor="hand2", padx=15, pady=6, command=toggle_language);
 btn_lang_toggle.pack(side=tk.RIGHT, padx=10, pady=15)
@@ -802,5 +915,29 @@ btn_dark_toggle = tk.Button(frame_header, text=t_init["btn_dark_d"], font=("Sego
                             fg="white", bd=0, relief="flat", cursor="hand2", padx=15, pady=6, command=toggle_dark_mode);
 btn_dark_toggle.pack(side=tk.RIGHT, padx=20, pady=15)
 
+lbl_rellotge_live = tk.Label(           # Rellotge en temps real
+    frame_InfoAeronautica,
+    text="ZULU TIME: 00:00:00 UTC",
+    font=("Courier New", 10, "bold"),
+    bg=frame_InfoAeronautica.cget("bg"),  # Copia el fons del teu frame actiu (clar/fosc)
+    fg="#00FF00" if "fosg" in idioma_actual or "dark" in idioma_actual else "#1E3A8A"  # Color adaptatiu
+)
+lbl_rellotge_live.pack(fill=tk.X, pady=4)
+
+
+# Funció recursiva en segon pla per actualitzar el rellotge
+def actualitzar_rellotge_live():
+    ara = datetime.now()
+    # Format típic d'aviació (Hora Zulu / UTC real)
+    text_hora = f"ZULU TIME: {ara.hour:02d}:{ara.minute:02d}:{ara.second:02d} UTC"
+    lbl_rellotge_live.config(text=text_hora)
+
+    # Trucada en bucle automàtica cada 1000 mil·lisegons (1 segon) de Tkinter
+    lbl_rellotge_live.after(1000, actualitzar_rellotge_live)
+
+root.iconbitmap("icon.ico")
+
 if __name__ == "__main__":
+    actualitzar_rellotge_live()
     root.mainloop()
+

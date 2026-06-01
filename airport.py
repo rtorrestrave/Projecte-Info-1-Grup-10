@@ -22,7 +22,6 @@ class Airport:
         self.longitude = lon
         self.schengen = False
 
-
 def AddAirport(lista, nuevoaeropuerto):
     icao = nuevoaeropuerto.icao.upper()
     indice_existente = -1
@@ -42,7 +41,6 @@ def AddAirport(lista, nuevoaeropuerto):
         print("Nuevo Aeropuerto Añadido.")
     return lista
 
-
 def RemoveAirports(airports, icao_a_borrar):
     nueva_lista = []
     encontrado = False
@@ -53,7 +51,6 @@ def RemoveAirports(airports, icao_a_borrar):
             encontrado = True
     if encontrado: print(f"Aeropuerto {icao_a_borrar} eliminat.")
     return nueva_lista
-
 
 def SaveAirportList(airports, filename):
     try:
@@ -81,7 +78,6 @@ def SaveAirportList(airports, filename):
     except Exception as e:
         print("Error al guardar aeroports:", e)
 
-
 def IsSchengen(icao):
     if not icao: return False
     try:
@@ -98,10 +94,8 @@ def IsSchengen(icao):
         pass
     return False
 
-
 def SetSchengen(airport_obj):
     airport_obj.schengen = IsSchengen(airport_obj.icao)
-
 
 def LoadAirports(filename):
     lista_aeropuertos = []
@@ -135,11 +129,9 @@ def LoadAirports(filename):
         return []
     return lista_aeropuertos
 
-
 def SaveSchengenAirports(airports, filename):
     schengen_list = [a for a in airports if IsSchengen(a.icao)]
     SaveAirportList(schengen_list, filename)
-
 
 def PlotAirports(airports, frame_central):
     for widget in frame_central.winfo_children(): widget.destroy()
@@ -180,7 +172,6 @@ def PlotAirports(airports, frame_central):
     canvas.draw()
     canvas.get_tk_widget().configure(bg=bg_color, highlightthickness=0)
     canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
-
 
 def MapAirports(lista):
     try:

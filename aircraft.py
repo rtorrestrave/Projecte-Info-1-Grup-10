@@ -9,10 +9,6 @@
 #
 # ======================================================================================================================
 
-
-
-
-
 ################################################################################################################********
 #####################       DEFINICIÓ CLASSE I LLIBRERIES       ########################################################
 ################################################################################################################********
@@ -22,7 +18,6 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from airport import IsSchengen
 
-
 class Aircraft:
     def __init__(self, id, company, origin=None, landtime=None, destination=None, departuretime=None):
         self.id = id
@@ -31,7 +26,6 @@ class Aircraft:
         self.landtime = landtime if landtime != "-" else None
         self.destination = destination if destination != "-" else None
         self.departuretime = departuretime if departuretime != "-" else None
-
 
 ################################################################################################################********
 #################################       CÀRREGA D'ARRIBADES (LOADARRIVALS)      ########################################
@@ -60,7 +54,6 @@ def LoadArrivals(filename):
         return []
     return lista_aircraft
 
-
 ################################################################################################################********
 #################################       CÀRREGA DE SORTIDES (LOADDEPARTURES)    ########################################
 ################################################################################################################********
@@ -88,7 +81,6 @@ def LoadDepartures(filename):
         print("Fitxer de sortides NO trobat.")
         return [], -1
 
-
 ################################################################################################################********
 ################################  GUARDAR LA LLISTA EN FITXER TXT       ################################################
 ################################################################################################################********
@@ -111,7 +103,6 @@ def SaveFlights(aircrafts, filename):
         F.close()
     except Exception as e:
         print("Error al guardar vols:", e)
-
 
 ################################################################################################################********
 ################################      LLISTA DE VOLS LLARGS (MÉS DE 2000KM)     ########################################
@@ -141,7 +132,6 @@ def LongDistanceArrivals(aircrafts, airports_list):
         i += 1
     return LongAircraftFlights
 
-
 def HaversineDistance(AirportA, AirportB):
     lat1, lon1 = AirportA.latitude, AirportA.longitude
     lat2, lon2 = AirportB.latitude, AirportB.longitude
@@ -152,7 +142,6 @@ def HaversineDistance(AirportA, AirportB):
     incr_lambda = (lon2 - lon1) * math.pi / 180
     a = math.sin(incr_phi / 2) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(incr_lambda / 2) ** 2
     return R * (2 * math.atan2(math.sqrt(a), math.sqrt(1 - a)))
-
 
 ################################################################################################################********
 #################################       AVIONS NOCTURNS (NIGHTAIRCRAFT)         ########################################
@@ -165,7 +154,6 @@ def NightAircraft(aircrafts):
         if avio.departuretime is not None and (avio.landtime is None or avio.landtime == "-"):
             night_list.append(avio)
     return night_list, 0
-
 
 ################################################################################################################********
 #################################       FUSIÓ DE MOVIMENTS (MERGEMOVEMENTS)     ########################################
@@ -214,7 +202,6 @@ def MergeMovements(arrivals, departures):
 
     return merged_list, 0
 
-
 ################################################################################################################********
 #################################   INTERFACES INTEGRADAS EN EL FRAME CENTRAL   ########################################
 ################################################################################################################********
@@ -252,7 +239,6 @@ def PlotArrivals(aircrafts, frame_central):
     canvas.draw()
     canvas.get_tk_widget().configure(bg=bg_color, highlightthickness=0)
     canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
-
 
 def PlotAirlines(aircrafts, frame_central, filtro=None):
     for widget in frame_central.winfo_children(): widget.destroy()
@@ -300,7 +286,6 @@ def PlotAirlines(aircrafts, frame_central, filtro=None):
     canvas.draw()
     canvas.get_tk_widget().configure(bg=bg_color, highlightthickness=0)
     canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
-
 
 def PlotFlightsType(aircrafts, frame_central):
     for widget in frame_central.winfo_children(): widget.destroy()

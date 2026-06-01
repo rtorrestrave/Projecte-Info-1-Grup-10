@@ -15,10 +15,8 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.patches import Rectangle
 import copy
-
-from airport import IsSchengen
+from airport import *
 from aircraft import *
-
 
 class Gate:
     def __init__(self, name):
@@ -26,20 +24,17 @@ class Gate:
         self.occupied = False
         self.aircraft_id = None
 
-
 class BoardingArea:
     def __init__(self, name, type_schengen):
         self.name = name
         self.type = type_schengen  # True per Schengen, False per non-Schengen
         self.gates = []
 
-
 class Terminal:
     def __init__(self, name):
         self.name = name
         self.boarding_areas = []
         self.airlines = []
-
 
 class BarcelonaAP:
     def __init__(self, code):
@@ -55,7 +50,6 @@ def SetGates(area, init_gate, end_gate, prefix):
         area.gates.append(Gate(f"{prefix}{i}"))
         i += 1
     return 0
-
 
 def LoadAirlines(terminal, t_name):
     filename = f"{t_name}_Airlines.txt"
@@ -73,7 +67,6 @@ def LoadAirlines(terminal, t_name):
     except FileNotFoundError:
         return -1
 
-
 def GateOccupancy(bcn):
     gates_info = []
     for term in bcn.terminals:
@@ -89,7 +82,6 @@ def GateOccupancy(bcn):
                 })
     return gates_info
 
-
 def IsAirlineInTerminal(terminal, name):
     if not name: return False
     name_clean = name.strip().upper()
@@ -97,12 +89,10 @@ def IsAirlineInTerminal(terminal, name):
         if airline.strip().upper() == name_clean: return True
     return False
 
-
 def SearchTerminal(bcn, name):
     for term in bcn.terminals:
         if IsAirlineInTerminal(term, name): return term.name
     return None
-
 
 def AssignGate(bcn, aircraft):
     if aircraft is None: return -1
@@ -123,7 +113,6 @@ def AssignGate(bcn, aircraft):
                             gate.aircraft_id = aircraft.id
                             return 0
     return -1
-
 
 def LoadAirportStructure(filename):
     try:
@@ -160,14 +149,12 @@ def LoadAirportStructure(filename):
                 SetGates(boardingarea, gateinicio, gatefinal, lineaactual[1])
     return LEBL
 
-
 def AssignNightGates(bcn, aircrafts):
     if not aircrafts: return -1
     for ac in aircrafts:
         if (ac.landtime is None or ac.landtime == "-") and ac.departuretime:
             AssignGate(bcn, ac)
     return 0
-
 
 def FreeGate(bcn, aircraft_id):
     for term in bcn.terminals:
@@ -178,7 +165,6 @@ def FreeGate(bcn, aircraft_id):
                     gate.aircraft_id = None
                     return 0
     return -1
-
 
 def AssignGatesAtTime(bcn, aircrafts, time):
     if not aircrafts: return -1
@@ -196,12 +182,7 @@ def AssignGatesAtTime(bcn, aircrafts, time):
     return failed
 
 
-# =======================================================================================================================
-#                            NOVA FUNCIÓ AMB SLIDER TEMPORAL INTEGRAT DIRECTAMENT
-# =======================================================================================================================
-# Variable global per poder redibuixar des de fora (main.py) quan es canvia el mode fosc
 _actualitzar_mapa_global_fn = None
-
 
 def PlotGatesMap(bcn_base, aircrafts_list, frame_central):
     global _actualitzar_mapa_global_fn
@@ -392,7 +373,6 @@ def PlotGatesMap(bcn_base, aircrafts_list, frame_central):
     # Càrrega gràfica inicial
     dibuixar_grafic_real(420)
 
-
 def PlotDayOccupancy(bcn, aircrafts, frame_central):
     for widget in frame_central.winfo_children(): widget.destroy()
     try:
@@ -450,7 +430,6 @@ def PlotDayOccupancy(bcn, aircrafts, frame_central):
     canvas.draw()
     canvas.get_tk_widget().configure(bg=bg_color, highlightthickness=0)
     canvas.pack(fill=tk.BOTH, expand=True)
-
 
 def MapFlights(aircrafts, airports_list):
     try:

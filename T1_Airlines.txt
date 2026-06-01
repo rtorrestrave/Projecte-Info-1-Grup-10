@@ -13,7 +13,7 @@ Air Nostrum	ANE
 Alitalia	AZA
 Aliexpress	SMX
 C.A.I. Second	VLE
-American Airlines	AAL
+American Airlines   AAL
 Arkia Israel Airlines	AIZ
 Asiana Airlines	AAR
 Austrian Airlines	AUA
