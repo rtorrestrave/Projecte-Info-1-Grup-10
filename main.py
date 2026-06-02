@@ -19,6 +19,8 @@ from airport import *
 from aircraft import *
 from LEBL import *
 from datetime import datetime
+import os
+import sys
 
 # Variables globals de l'aplicació
 airports = []
@@ -72,7 +74,9 @@ TEXTOS = {
         "pop_high": "Només alta freqüència (>= 5 vols)",
         "pop_group": "Agrupar minoritàries (< 3) a 'ALTRES'",
         "pop_error": "No hi ha cap companyia amb aquest volum de vols.",
-        "btn_plot_night": "Mapa Portes en Nocturnitat", "lbl_nocturnitat": "Nocturnitat"
+        "btn_plot_night": "Mapa Portes en Nocturnitat", "lbl_nocturnitat": "Nocturnitat",
+        "msg_open_ge_title": "Obrir a Google Earth",
+        "msg_open_ge_body": "El fitxer KML s'ha generat amb èxit. Vols obrir-lo directament a Google Earth?"
     },
 
     "es": {
@@ -115,7 +119,9 @@ TEXTOS = {
         "pop_high": "Solo alta frecuencia (>= 5 vuelos)",
         "pop_group": "Agrupar minoritarias (< 3) en 'ALTRES'",
         "pop_error": "No hay ninguna compañía con ese volumen de vuelos.",
-        "btn_plot_night": "Mapa Puertas en Nocturnidad", "lbl_nocturnitat": "Nocturnidad"
+        "btn_plot_night": "Mapa Puertas en Nocturnidad", "lbl_nocturnitat": "Nocturnidad",
+        "msg_open_ge_title": "Abrir en Google Earth",
+        "msg_open_ge_body": "El archivo KML se ha generado con éxito. ¿Deseas abrirlo directamente en Google Earth?"
     },
 
     "en": {
@@ -156,7 +162,9 @@ TEXTOS = {
         "pop_high": "High frequency only (>= 5 flights)",
         "pop_group": "Group minor airlines (< 3) into 'ALTRES'",
         "pop_error": "There are no companies with that amount of flights.",
-        "btn_plot_night": "Night Gate Map", "lbl_nocturnitat": "Night Stay"
+        "btn_plot_night": "Night Gate Map", "lbl_nocturnitat": "Night Stay",
+        "msg_open_ge_title": "Open in Google Earth",
+        "msg_open_ge_body": "The KML file has been successfully generated. Do you want to open it directly in Google Earth?"
     }
 }
 # =======================================================================================================================
@@ -295,6 +303,21 @@ def buscar_airport():
 
     tk.Button(win, text="Cercar", command=cercar).pack(pady=10)
 
+def abrir_kml_en_google_earth(ruta_archivo, t):
+    # Pregunta al usuario si quiere abrirlo (Sí/No) usando el idioma actual
+    respuesta = messagebox.askyesno(t["msg_open_ge_title"], t["msg_open_ge_body"])
+
+    if respuesta:  # Si el usuario pulsa "SÍ"
+        try:
+            if sys.platform == "win32":
+                os.startfile(ruta_archivo)  # Comando para Windows
+            elif sys.platform == "darwin":
+                os.system(f"open {ruta_archivo}")  # Comando para Mac
+            else:
+                os.system(f"xdg-open {ruta_archivo}")  # Comando para Linux
+        except Exception as e:
+            messagebox.onerror("Error", f"No se pudo abrir Google Earth: {e}")
+
 def map_airports():
     global airports
     t = TEXTOS[idioma_actual]
@@ -302,7 +325,8 @@ def map_airports():
         messagebox.showwarning(t["msg_wa_title"], t["msg_err_ap"])
     else:
         MapAirports(airports)
-        messagebox.showinfo("KML Generated", "Mapa de aeropuertos guardado como 'mapairports.kml'.")
+        # En vez del antiguo showinfo estático, ejecuta la lógica con la pregunta
+        abrir_kml_en_google_earth("mapairports.kml", t)
 
 def map_flights():
     global aircrafts, airports
@@ -311,7 +335,8 @@ def map_flights():
         messagebox.showwarning(t["msg_wa_title"], t["msg_err_both"])
     else:
         MapFlights(aircrafts, airports)
-        messagebox.showinfo("KML Generated", "Mapa de rutes guardat com 'routes.kml'.")
+        # En vez del antiguo showinfo estático, ejecuta la lógica con la pregunta
+        abrir_kml_en_google_earth("routes.kml", t)
 
 def plot_airports():
     global airports
